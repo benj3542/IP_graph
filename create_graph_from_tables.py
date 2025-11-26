@@ -31,7 +31,7 @@ from tqdm import tqdm
 input_folder = "/Users/smilladue/Desktop/Documents/DTU/social-graphs/IP_graph/wiki_foreign_relations_jsons"
 
 # Flag to control edge requirements
-REQUIRE_ALLIANCE = False  # Set to False to create edges based on embassies only
+REQUIRE_ALLIANCE = True  # Set to False to create edges based on embassies only
 
 # Debug flag
 DEBUG = False  # Set to False to disable debug output

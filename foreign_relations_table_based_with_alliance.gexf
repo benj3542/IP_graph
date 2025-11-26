@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-11-22">
+  <meta lastmodifieddate="2025-11-26">
     <creator>NetworkX 3.5</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -10,7 +10,6 @@
       <node id="Tanzania" label="Tanzania" />
       <node id="Sudan" label="Sudan" />
       <node id="Malaysia" label="Malaysia" />
-      <node id="Korea" label="Korea" />
       <node id="Saint Lucia" label="Saint Lucia" />
       <node id="Saint Vincent and the Grenadines" label="Saint Vincent and the Grenadines" />
       <node id="South Sudan" label="South Sudan" />
@@ -49,7 +48,7 @@
       <node id="Mozambique" label="Mozambique" />
       <node id="Yemen" label="Yemen" />
       <node id="Ecuador" label="Ecuador" />
-      <node id="Georgia  country" label="Georgia  country" />
+      <node id="Georgia" label="Georgia" />
       <node id="Djibouti" label="Djibouti" />
       <node id="Tuvalu" label="Tuvalu" />
       <node id="Timor-Leste" label="Timor-Leste" />
@@ -167,6 +166,7 @@
       <node id="the Philippines" label="the Philippines" />
       <node id="Haiti" label="Haiti" />
       <node id="the United Arab Emirates" label="the United Arab Emirates" />
+      <node id="the Holy See" label="the Holy See" />
       <node id="the Democratic Republic of the Congo" label="the Democratic Republic of the Congo" />
       <node id="Egypt" label="Egypt" />
       <node id="North Korea" label="North Korea" />
@@ -206,518 +206,800 @@
       <edge source="Chad" target="Ivory Coast" id="1" weight="1.0" />
       <edge source="Sudan" target="Indonesia" id="2" weight="1.0" />
       <edge source="Sudan" target="Syria" id="3" weight="1.0" />
-      <edge source="Malaysia" target="Turkey" id="4" weight="1.0" />
-      <edge source="South Korea" target="Ireland" id="5" weight="1.0" />
-      <edge source="South Korea" target="Turkey" id="6" weight="1.0" />
-      <edge source="South Korea" target="Indonesia" id="7" weight="1.0" />
-      <edge source="Morocco" target="Bulgaria" id="8" weight="1.0" />
-      <edge source="Morocco" target="Croatia" id="9" weight="1.0" />
-      <edge source="Morocco" target="Romania" id="10" weight="1.0" />
-      <edge source="Belgium" target="Canada" id="11" weight="1.0" />
-      <edge source="Belgium" target="Azerbaijan" id="12" weight="1.0" />
-      <edge source="Belgium" target="Turkey" id="13" weight="1.0" />
-      <edge source="Belgium" target="Austria" id="14" weight="1.0" />
-      <edge source="Belgium" target="Bulgaria" id="15" weight="1.0" />
-      <edge source="Belgium" target="Croatia" id="16" weight="1.0" />
-      <edge source="Belgium" target="Denmark" id="17" weight="1.0" />
-      <edge source="Belgium" target="Finland" id="18" weight="1.0" />
-      <edge source="Belgium" target="France" id="19" weight="1.0" />
-      <edge source="Belgium" target="Greece" id="20" weight="1.0" />
-      <edge source="Belgium" target="Ireland" id="21" weight="1.0" />
-      <edge source="Belgium" target="Italy" id="22" weight="1.0" />
-      <edge source="Belgium" target="Norway" id="23" weight="1.0" />
-      <edge source="Belgium" target="Poland" id="24" weight="1.0" />
-      <edge source="Belgium" target="Portugal" id="25" weight="1.0" />
-      <edge source="Belgium" target="Romania" id="26" weight="1.0" />
-      <edge source="Belgium" target="Spain" id="27" weight="1.0" />
-      <edge source="Belgium" target="Hungary" id="28" weight="1.0" />
-      <edge source="Belgium" target="Germany" id="29" weight="1.0" />
-      <edge source="China" target="Turkey" id="30" weight="1.0" />
-      <edge source="the United States" target="Finland" id="31" weight="1.0" />
-      <edge source="the United States" target="Sweden" id="32" weight="1.0" />
-      <edge source="Hungary" target="Israel" id="33" weight="1.0" />
-      <edge source="Hungary" target="Turkey" id="34" weight="1.0" />
-      <edge source="Hungary" target="Albania" id="35" weight="1.0" />
-      <edge source="Hungary" target="Austria" id="36" weight="1.0" />
-      <edge source="Hungary" target="Croatia" id="37" weight="1.0" />
-      <edge source="Hungary" target="Cyprus" id="38" weight="1.0" />
-      <edge source="Hungary" target="Denmark" id="39" weight="1.0" />
-      <edge source="Hungary" target="Estonia" id="40" weight="1.0" />
-      <edge source="Hungary" target="Finland" id="41" weight="1.0" />
-      <edge source="Hungary" target="France" id="42" weight="1.0" />
-      <edge source="Hungary" target="Germany" id="43" weight="1.0" />
-      <edge source="Hungary" target="Greece" id="44" weight="1.0" />
-      <edge source="Hungary" target="Ireland" id="45" weight="1.0" />
-      <edge source="Hungary" target="Italy" id="46" weight="1.0" />
-      <edge source="Hungary" target="Latvia" id="47" weight="1.0" />
-      <edge source="Hungary" target="Lithuania" id="48" weight="1.0" />
-      <edge source="Hungary" target="North Macedonia" id="49" weight="1.0" />
-      <edge source="Hungary" target="Norway" id="50" weight="1.0" />
-      <edge source="Hungary" target="Poland" id="51" weight="1.0" />
-      <edge source="Hungary" target="Portugal" id="52" weight="1.0" />
-      <edge source="Hungary" target="Russia" id="53" weight="1.0" />
-      <edge source="Hungary" target="Slovakia" id="54" weight="1.0" />
-      <edge source="Hungary" target="Slovenia" id="55" weight="1.0" />
-      <edge source="Hungary" target="Sweden" id="56" weight="1.0" />
-      <edge source="Hungary" target="Switzerland" id="57" weight="1.0" />
-      <edge source="Hungary" target="Belarus" id="58" weight="1.0" />
-      <edge source="Hungary" target="the Netherlands" id="59" weight="1.0" />
-      <edge source="Hungary" target="Spain" id="60" weight="1.0" />
-      <edge source="Hungary" target="the Czech Republic" id="61" weight="1.0" />
-      <edge source="Seychelles" target="France" id="62" weight="1.0" />
-      <edge source="Colombia" target="Argentina" id="63" weight="1.0" />
-      <edge source="Colombia" target="Chile" id="64" weight="1.0" />
-      <edge source="Colombia" target="Paraguay" id="65" weight="1.0" />
-      <edge source="Colombia" target="Peru" id="66" weight="1.0" />
-      <edge source="Colombia" target="Indonesia" id="67" weight="1.0" />
-      <edge source="Colombia" target="Turkey" id="68" weight="1.0" />
-      <edge source="Colombia" target="Poland" id="69" weight="1.0" />
-      <edge source="Bulgaria" target="Algeria" id="70" weight="1.0" />
-      <edge source="Bulgaria" target="Egypt" id="71" weight="1.0" />
-      <edge source="Bulgaria" target="Armenia" id="72" weight="1.0" />
-      <edge source="Bulgaria" target="Azerbaijan" id="73" weight="1.0" />
-      <edge source="Bulgaria" target="Israel" id="74" weight="1.0" />
-      <edge source="Bulgaria" target="Lebanon" id="75" weight="1.0" />
-      <edge source="Bulgaria" target="Syria" id="76" weight="1.0" />
-      <edge source="Bulgaria" target="Turkey" id="77" weight="1.0" />
-      <edge source="Bulgaria" target="Albania" id="78" weight="1.0" />
-      <edge source="Bulgaria" target="Austria" id="79" weight="1.0" />
-      <edge source="Bulgaria" target="Croatia" id="80" weight="1.0" />
-      <edge source="Bulgaria" target="Cyprus" id="81" weight="1.0" />
-      <edge source="Bulgaria" target="Denmark" id="82" weight="1.0" />
-      <edge source="Bulgaria" target="Estonia" id="83" weight="1.0" />
-      <edge source="Bulgaria" target="Finland" id="84" weight="1.0" />
-      <edge source="Bulgaria" target="France" id="85" weight="1.0" />
-      <edge source="Bulgaria" target="Germany" id="86" weight="1.0" />
-      <edge source="Bulgaria" target="Greece" id="87" weight="1.0" />
-      <edge source="Bulgaria" target="Ireland" id="88" weight="1.0" />
-      <edge source="Bulgaria" target="Italy" id="89" weight="1.0" />
-      <edge source="Bulgaria" target="Lithuania" id="90" weight="1.0" />
-      <edge source="Bulgaria" target="Poland" id="91" weight="1.0" />
-      <edge source="Bulgaria" target="Portugal" id="92" weight="1.0" />
-      <edge source="Bulgaria" target="Romania" id="93" weight="1.0" />
-      <edge source="Bulgaria" target="Slovakia" id="94" weight="1.0" />
-      <edge source="Bulgaria" target="Spain" id="95" weight="1.0" />
-      <edge source="Bulgaria" target="Belarus" id="96" weight="1.0" />
-      <edge source="Bulgaria" target="North Macedonia" id="97" weight="1.0" />
-      <edge source="Bulgaria" target="Moldova" id="98" weight="1.0" />
-      <edge source="Bulgaria" target="the Netherlands" id="99" weight="1.0" />
-      <edge source="Slovenia" target="Turkey" id="100" weight="1.0" />
-      <edge source="Slovenia" target="Albania" id="101" weight="1.0" />
-      <edge source="Slovenia" target="Austria" id="102" weight="1.0" />
-      <edge source="Slovenia" target="Denmark" id="103" weight="1.0" />
-      <edge source="Slovenia" target="France" id="104" weight="1.0" />
-      <edge source="Slovenia" target="Germany" id="105" weight="1.0" />
-      <edge source="Slovenia" target="Greece" id="106" weight="1.0" />
-      <edge source="Slovenia" target="Ireland" id="107" weight="1.0" />
-      <edge source="Slovenia" target="Italy" id="108" weight="1.0" />
-      <edge source="Slovenia" target="Montenegro" id="109" weight="1.0" />
-      <edge source="Slovenia" target="Poland" id="110" weight="1.0" />
-      <edge source="Slovenia" target="Romania" id="111" weight="1.0" />
-      <edge source="Slovenia" target="Spain" id="112" weight="1.0" />
-      <edge source="Slovenia" target="Ukraine" id="113" weight="1.0" />
-      <edge source="Slovenia" target="North Macedonia" id="114" weight="1.0" />
-      <edge source="Slovenia" target="the Netherlands" id="115" weight="1.0" />
-      <edge source="Slovenia" target="Egypt" id="116" weight="1.0" />
-      <edge source="Slovenia" target="Finland" id="117" weight="1.0" />
-      <edge source="Germany" target="Turkey" id="118" weight="1.0" />
-      <edge source="Germany" target="Albania" id="119" weight="1.0" />
-      <edge source="Germany" target="Austria" id="120" weight="1.0" />
-      <edge source="Germany" target="Croatia" id="121" weight="1.0" />
-      <edge source="Germany" target="Cyprus" id="122" weight="1.0" />
-      <edge source="Germany" target="Denmark" id="123" weight="1.0" />
-      <edge source="Germany" target="Finland" id="124" weight="1.0" />
-      <edge source="Germany" target="France" id="125" weight="1.0" />
-      <edge source="Germany" target="Ireland" id="126" weight="1.0" />
-      <edge source="Germany" target="Italy" id="127" weight="1.0" />
-      <edge source="Germany" target="Moldova" id="128" weight="1.0" />
-      <edge source="Germany" target="Norway" id="129" weight="1.0" />
-      <edge source="Germany" target="Poland" id="130" weight="1.0" />
-      <edge source="Germany" target="Spain" id="131" weight="1.0" />
-      <edge source="Germany" target="Ukraine" id="132" weight="1.0" />
-      <edge source="Germany" target="Portugal" id="133" weight="1.0" />
-      <edge source="Germany" target="Malta" id="134" weight="1.0" />
-      <edge source="Germany" target="Estonia" id="135" weight="1.0" />
-      <edge source="Germany" target="North Macedonia" id="136" weight="1.0" />
-      <edge source="Germany" target="Latvia" id="137" weight="1.0" />
-      <edge source="Germany" target="Greece" id="138" weight="1.0" />
-      <edge source="Germany" target="Sweden" id="139" weight="1.0" />
-      <edge source="Norway" target="Turkey" id="140" weight="1.0" />
-      <edge source="Norway" target="Austria" id="141" weight="1.0" />
-      <edge source="Norway" target="Croatia" id="142" weight="1.0" />
-      <edge source="Norway" target="Denmark" id="143" weight="1.0" />
-      <edge source="Norway" target="Estonia" id="144" weight="1.0" />
-      <edge source="Norway" target="Finland" id="145" weight="1.0" />
-      <edge source="Norway" target="France" id="146" weight="1.0" />
-      <edge source="Norway" target="Greece" id="147" weight="1.0" />
-      <edge source="Norway" target="Iceland" id="148" weight="1.0" />
-      <edge source="Norway" target="Ireland" id="149" weight="1.0" />
-      <edge source="Norway" target="Italy" id="150" weight="1.0" />
-      <edge source="Norway" target="Poland" id="151" weight="1.0" />
-      <edge source="Norway" target="Romania" id="152" weight="1.0" />
-      <edge source="Norway" target="Serbia" id="153" weight="1.0" />
-      <edge source="Norway" target="Spain" id="154" weight="1.0" />
-      <edge source="Norway" target="Sweden" id="155" weight="1.0" />
-      <edge source="Norway" target="Ukraine" id="156" weight="1.0" />
-      <edge source="Norway" target="Portugal" id="157" weight="1.0" />
-      <edge source="Norway" target="North Macedonia" id="158" weight="1.0" />
-      <edge source="Lithuania" target="Turkey" id="159" weight="1.0" />
-      <edge source="Lithuania" target="Italy" id="160" weight="1.0" />
-      <edge source="Lithuania" target="Ukraine" id="161" weight="1.0" />
-      <edge source="Lithuania" target="Ireland" id="162" weight="1.0" />
-      <edge source="Lithuania" target="Poland" id="163" weight="1.0" />
-      <edge source="Lithuania" target="Estonia" id="164" weight="1.0" />
-      <edge source="Lithuania" target="Denmark" id="165" weight="1.0" />
-      <edge source="Lithuania" target="Moldova" id="166" weight="1.0" />
-      <edge source="Lithuania" target="Latvia" id="167" weight="1.0" />
-      <edge source="Lithuania" target="Armenia" id="168" weight="1.0" />
-      <edge source="Lithuania" target="Greece" id="169" weight="1.0" />
-      <edge source="Lithuania" target="Spain" id="170" weight="1.0" />
-      <edge source="Lithuania" target="Finland" id="171" weight="1.0" />
-      <edge source="Lithuania" target="Sweden" id="172" weight="1.0" />
-      <edge source="Lithuania" target="the Czech Republic" id="173" weight="1.0" />
-      <edge source="Portugal" target="Turkey" id="174" weight="1.0" />
-      <edge source="Portugal" target="Albania" id="175" weight="1.0" />
-      <edge source="Portugal" target="Austria" id="176" weight="1.0" />
-      <edge source="Portugal" target="Croatia" id="177" weight="1.0" />
-      <edge source="Portugal" target="Cyprus" id="178" weight="1.0" />
-      <edge source="Portugal" target="Denmark" id="179" weight="1.0" />
-      <edge source="Portugal" target="Finland" id="180" weight="1.0" />
-      <edge source="Portugal" target="France" id="181" weight="1.0" />
-      <edge source="Portugal" target="Greece" id="182" weight="1.0" />
-      <edge source="Portugal" target="Ireland" id="183" weight="1.0" />
-      <edge source="Portugal" target="Italy" id="184" weight="1.0" />
-      <edge source="Portugal" target="Poland" id="185" weight="1.0" />
-      <edge source="Portugal" target="Romania" id="186" weight="1.0" />
-      <edge source="Portugal" target="Russia" id="187" weight="1.0" />
-      <edge source="Portugal" target="Spain" id="188" weight="1.0" />
-      <edge source="Portugal" target="Sweden" id="189" weight="1.0" />
-      <edge source="Portugal" target="Ukraine" id="190" weight="1.0" />
-      <edge source="Portugal" target="Slovakia" id="191" weight="1.0" />
-      <edge source="Portugal" target="Malta" id="192" weight="1.0" />
-      <edge source="Nicaragua" target="Spain" id="193" weight="1.0" />
-      <edge source="Nicaragua" target="Bolivia" id="194" weight="1.0" />
-      <edge source="Bangladesh" target="Turkey" id="195" weight="1.0" />
-      <edge source="Slovakia" target="Turkey" id="196" weight="1.0" />
-      <edge source="Slovakia" target="Croatia" id="197" weight="1.0" />
-      <edge source="Slovakia" target="Denmark" id="198" weight="1.0" />
-      <edge source="Slovakia" target="France" id="199" weight="1.0" />
-      <edge source="Slovakia" target="Greece" id="200" weight="1.0" />
-      <edge source="Slovakia" target="Italy" id="201" weight="1.0" />
-      <edge source="Slovakia" target="Poland" id="202" weight="1.0" />
-      <edge source="Slovakia" target="Romania" id="203" weight="1.0" />
-      <edge source="Slovakia" target="Spain" id="204" weight="1.0" />
-      <edge source="Slovakia" target="Ireland" id="205" weight="1.0" />
-      <edge source="Slovakia" target="Austria" id="206" weight="1.0" />
-      <edge source="Slovakia" target="Belarus" id="207" weight="1.0" />
-      <edge source="Slovakia" target="the Netherlands" id="208" weight="1.0" />
-      <edge source="Slovakia" target="Finland" id="209" weight="1.0" />
-      <edge source="Yemen" target="Syria" id="210" weight="1.0" />
-      <edge source="Ecuador" target="Indonesia" id="211" weight="1.0" />
-      <edge source="Ecuador" target="Spain" id="212" weight="1.0" />
-      <edge source="Paraguay" target="Peru" id="213" weight="1.0" />
-      <edge source="Paraguay" target="Spain" id="214" weight="1.0" />
-      <edge source="Paraguay" target="Uruguay" id="215" weight="1.0" />
-      <edge source="New Zealand" target="Argentina" id="216" weight="1.0" />
-      <edge source="New Zealand" target="Indonesia" id="217" weight="1.0" />
-      <edge source="New Zealand" target="Turkey" id="218" weight="1.0" />
-      <edge source="New Zealand" target="Ireland" id="219" weight="1.0" />
-      <edge source="New Zealand" target="Russia" id="220" weight="1.0" />
-      <edge source="New Zealand" target="Poland" id="221" weight="1.0" />
-      <edge source="Turkey" target="Argentina" id="222" weight="1.0" />
-      <edge source="Turkey" target="Chile" id="223" weight="1.0" />
-      <edge source="Turkey" target="Canada" id="224" weight="1.0" />
-      <edge source="Turkey" target="Brazil" id="225" weight="1.0" />
-      <edge source="Turkey" target="Kazakhstan" id="226" weight="1.0" />
-      <edge source="Turkey" target="Kyrgyzstan" id="227" weight="1.0" />
-      <edge source="Turkey" target="Turkmenistan" id="228" weight="1.0" />
-      <edge source="Turkey" target="Uzbekistan" id="229" weight="1.0" />
-      <edge source="Turkey" target="Afghanistan" id="230" weight="1.0" />
-      <edge source="Turkey" target="Australia" id="231" weight="1.0" />
-      <edge source="Turkey" target="India" id="232" weight="1.0" />
-      <edge source="Turkey" target="Indonesia" id="233" weight="1.0" />
-      <edge source="Turkey" target="Japan" id="234" weight="1.0" />
-      <edge source="Turkey" target="Mongolia" id="235" weight="1.0" />
-      <edge source="Turkey" target="Pakistan" id="236" weight="1.0" />
-      <edge source="Turkey" target="Tajikistan" id="237" weight="1.0" />
-      <edge source="Turkey" target="Iran" id="238" weight="1.0" />
-      <edge source="Turkey" target="Albania" id="239" weight="1.0" />
-      <edge source="Turkey" target="Austria" id="240" weight="1.0" />
-      <edge source="Turkey" target="Belarus" id="241" weight="1.0" />
-      <edge source="Turkey" target="Croatia" id="242" weight="1.0" />
-      <edge source="Turkey" target="Denmark" id="243" weight="1.0" />
-      <edge source="Turkey" target="Estonia" id="244" weight="1.0" />
-      <edge source="Turkey" target="Finland" id="245" weight="1.0" />
-      <edge source="Turkey" target="France" id="246" weight="1.0" />
-      <edge source="Turkey" target="Ireland" id="247" weight="1.0" />
-      <edge source="Turkey" target="Italy" id="248" weight="1.0" />
-      <edge source="Turkey" target="Latvia" id="249" weight="1.0" />
-      <edge source="Turkey" target="Malta" id="250" weight="1.0" />
-      <edge source="Turkey" target="Moldova" id="251" weight="1.0" />
-      <edge source="Turkey" target="North Macedonia" id="252" weight="1.0" />
-      <edge source="Turkey" target="Poland" id="253" weight="1.0" />
-      <edge source="Turkey" target="Romania" id="254" weight="1.0" />
-      <edge source="Turkey" target="Russia" id="255" weight="1.0" />
-      <edge source="Turkey" target="Serbia" id="256" weight="1.0" />
-      <edge source="Turkey" target="Spain" id="257" weight="1.0" />
-      <edge source="Turkey" target="Sweden" id="258" weight="1.0" />
-      <edge source="Turkey" target="Switzerland" id="259" weight="1.0" />
-      <edge source="Turkey" target="Ukraine" id="260" weight="1.0" />
-      <edge source="Turkey" target="Greece" id="261" weight="1.0" />
-      <edge source="Turkey" target="the Netherlands" id="262" weight="1.0" />
-      <edge source="Turkey" target="Mauritania" id="263" weight="1.0" />
-      <edge source="Turkey" target="the Czech Republic" id="264" weight="1.0" />
-      <edge source="South Africa" target="Argentina" id="265" weight="1.0" />
-      <edge source="Guinea-Bissau" target="Brazil" id="266" weight="1.0" />
-      <edge source="Guinea" target="Ivory Coast" id="267" weight="1.0" />
-      <edge source="Italy" target="Tunisia" id="268" weight="1.0" />
-      <edge source="Italy" target="Canada" id="269" weight="1.0" />
-      <edge source="Italy" target="Armenia" id="270" weight="1.0" />
-      <edge source="Italy" target="Azerbaijan" id="271" weight="1.0" />
-      <edge source="Italy" target="Israel" id="272" weight="1.0" />
-      <edge source="Italy" target="Austria" id="273" weight="1.0" />
-      <edge source="Italy" target="Croatia" id="274" weight="1.0" />
-      <edge source="Italy" target="Cyprus" id="275" weight="1.0" />
-      <edge source="Italy" target="Denmark" id="276" weight="1.0" />
-      <edge source="Italy" target="Estonia" id="277" weight="1.0" />
-      <edge source="Italy" target="Greece" id="278" weight="1.0" />
-      <edge source="Italy" target="Ireland" id="279" weight="1.0" />
-      <edge source="Italy" target="Latvia" id="280" weight="1.0" />
-      <edge source="Italy" target="Malta" id="281" weight="1.0" />
-      <edge source="Italy" target="North Macedonia" id="282" weight="1.0" />
-      <edge source="Italy" target="Poland" id="283" weight="1.0" />
-      <edge source="Italy" target="Romania" id="284" weight="1.0" />
-      <edge source="Italy" target="Spain" id="285" weight="1.0" />
-      <edge source="Italy" target="Sweden" id="286" weight="1.0" />
-      <edge source="Italy" target="Ukraine" id="287" weight="1.0" />
-      <edge source="Italy" target="Moldova" id="288" weight="1.0" />
-      <edge source="Italy" target="the Netherlands" id="289" weight="1.0" />
-      <edge source="Italy" target="Egypt" id="290" weight="1.0" />
-      <edge source="Italy" target="Algeria" id="291" weight="1.0" />
-      <edge source="Italy" target="the Czech Republic" id="292" weight="1.0" />
-      <edge source="Ukraine" target="Azerbaijan" id="293" weight="1.0" />
-      <edge source="Ukraine" target="Ireland" id="294" weight="1.0" />
-      <edge source="Ukraine" target="Poland" id="295" weight="1.0" />
-      <edge source="Ukraine" target="Austria" id="296" weight="1.0" />
-      <edge source="Ukraine" target="Croatia" id="297" weight="1.0" />
-      <edge source="Ukraine" target="the Netherlands" id="298" weight="1.0" />
-      <edge source="Ukraine" target="Spain" id="299" weight="1.0" />
-      <edge source="Ukraine" target="Finland" id="300" weight="1.0" />
-      <edge source="Ukraine" target="Sweden" id="301" weight="1.0" />
-      <edge source="Vietnam" target="Cambodia" id="302" weight="1.0" />
-      <edge source="Vietnam" target="Indonesia" id="303" weight="1.0" />
-      <edge source="Vietnam" target="Thailand" id="304" weight="1.0" />
-      <edge source="Ivory Coast" target="Liberia" id="305" weight="1.0" />
-      <edge source="Indonesia" target="Thailand" id="306" weight="1.0" />
-      <edge source="Indonesia" target="Canada" id="307" weight="1.0" />
-      <edge source="Indonesia" target="Kazakhstan" id="308" weight="1.0" />
-      <edge source="Indonesia" target="Lebanon" id="309" weight="1.0" />
-      <edge source="Indonesia" target="Pakistan" id="310" weight="1.0" />
-      <edge source="Indonesia" target="Syria" id="311" weight="1.0" />
-      <edge source="Indonesia" target="Uzbekistan" id="312" weight="1.0" />
-      <edge source="Indonesia" target="France" id="313" weight="1.0" />
-      <edge source="Indonesia" target="Russia" id="314" weight="1.0" />
-      <edge source="Ireland" target="Israel" id="315" weight="1.0" />
-      <edge source="Ireland" target="Japan" id="316" weight="1.0" />
-      <edge source="Ireland" target="Cyprus" id="317" weight="1.0" />
-      <edge source="Ireland" target="Denmark" id="318" weight="1.0" />
-      <edge source="Ireland" target="Estonia" id="319" weight="1.0" />
-      <edge source="Ireland" target="Finland" id="320" weight="1.0" />
-      <edge source="Ireland" target="Greece" id="321" weight="1.0" />
-      <edge source="Ireland" target="Latvia" id="322" weight="1.0" />
-      <edge source="Ireland" target="Malta" id="323" weight="1.0" />
-      <edge source="Ireland" target="Poland" id="324" weight="1.0" />
-      <edge source="Ireland" target="Romania" id="325" weight="1.0" />
-      <edge source="Ireland" target="Sweden" id="326" weight="1.0" />
-      <edge source="Ireland" target="Switzerland" id="327" weight="1.0" />
-      <edge source="Ireland" target="Croatia" id="328" weight="1.0" />
-      <edge source="Ireland" target="Spain" id="329" weight="1.0" />
-      <edge source="Ireland" target="the Czech Republic" id="330" weight="1.0" />
-      <edge source="Poland" target="Chile" id="331" weight="1.0" />
-      <edge source="Poland" target="Armenia" id="332" weight="1.0" />
-      <edge source="Poland" target="Azerbaijan" id="333" weight="1.0" />
-      <edge source="Poland" target="Israel" id="334" weight="1.0" />
-      <edge source="Poland" target="Japan" id="335" weight="1.0" />
-      <edge source="Poland" target="Albania" id="336" weight="1.0" />
-      <edge source="Poland" target="Austria" id="337" weight="1.0" />
-      <edge source="Poland" target="Croatia" id="338" weight="1.0" />
-      <edge source="Poland" target="Cyprus" id="339" weight="1.0" />
-      <edge source="Poland" target="Denmark" id="340" weight="1.0" />
-      <edge source="Poland" target="Estonia" id="341" weight="1.0" />
-      <edge source="Poland" target="Finland" id="342" weight="1.0" />
-      <edge source="Poland" target="France" id="343" weight="1.0" />
-      <edge source="Poland" target="Greece" id="344" weight="1.0" />
-      <edge source="Poland" target="Iceland" id="345" weight="1.0" />
-      <edge source="Poland" target="Latvia" id="346" weight="1.0" />
-      <edge source="Poland" target="Malta" id="347" weight="1.0" />
-      <edge source="Poland" target="Moldova" id="348" weight="1.0" />
-      <edge source="Poland" target="Montenegro" id="349" weight="1.0" />
-      <edge source="Poland" target="North Macedonia" id="350" weight="1.0" />
-      <edge source="Poland" target="Romania" id="351" weight="1.0" />
-      <edge source="Poland" target="Russia" id="352" weight="1.0" />
-      <edge source="Poland" target="Spain" id="353" weight="1.0" />
-      <edge source="Poland" target="Sweden" id="354" weight="1.0" />
-      <edge source="Poland" target="Switzerland" id="355" weight="1.0" />
-      <edge source="Poland" target="Australia" id="356" weight="1.0" />
-      <edge source="Qatar" target="Cyprus" id="357" weight="1.0" />
-      <edge source="Montenegro" target="North Macedonia" id="358" weight="1.0" />
-      <edge source="Montenegro" target="Croatia" id="359" weight="1.0" />
-      <edge source="Oman" target="Syria" id="360" weight="1.0" />
-      <edge source="Austria" target="Azerbaijan" id="361" weight="1.0" />
-      <edge source="Austria" target="Israel" id="362" weight="1.0" />
-      <edge source="Austria" target="Cyprus" id="363" weight="1.0" />
-      <edge source="Austria" target="Denmark" id="364" weight="1.0" />
-      <edge source="Austria" target="Finland" id="365" weight="1.0" />
-      <edge source="Austria" target="France" id="366" weight="1.0" />
-      <edge source="Austria" target="Greece" id="367" weight="1.0" />
-      <edge source="Austria" target="Moldova" id="368" weight="1.0" />
-      <edge source="Austria" target="Spain" id="369" weight="1.0" />
-      <edge source="Austria" target="Sweden" id="370" weight="1.0" />
-      <edge source="Austria" target="Switzerland" id="371" weight="1.0" />
-      <edge source="Austria" target="Estonia" id="372" weight="1.0" />
-      <edge source="Austria" target="North Macedonia" id="373" weight="1.0" />
-      <edge source="Austria" target="Latvia" id="374" weight="1.0" />
-      <edge source="Austria" target="Romania" id="375" weight="1.0" />
-      <edge source="Austria" target="Croatia" id="376" weight="1.0" />
-      <edge source="Austria" target="the Netherlands" id="377" weight="1.0" />
-      <edge source="Peru" target="Canada" id="378" weight="1.0" />
-      <edge source="Peru" target="Spain" id="379" weight="1.0" />
-      <edge source="Peru" target="Uruguay" id="380" weight="1.0" />
-      <edge source="Malta" target="Tunisia" id="381" weight="1.0" />
-      <edge source="Malta" target="Greece" id="382" weight="1.0" />
-      <edge source="Malta" target="the Netherlands" id="383" weight="1.0" />
-      <edge source="Malta" target="Spain" id="384" weight="1.0" />
-      <edge source="Estonia" target="Azerbaijan" id="385" weight="1.0" />
-      <edge source="Estonia" target="Denmark" id="386" weight="1.0" />
-      <edge source="Estonia" target="Finland" id="387" weight="1.0" />
-      <edge source="Estonia" target="Greece" id="388" weight="1.0" />
-      <edge source="Estonia" target="Romania" id="389" weight="1.0" />
-      <edge source="Estonia" target="Spain" id="390" weight="1.0" />
-      <edge source="Estonia" target="Sweden" id="391" weight="1.0" />
-      <edge source="Estonia" target="Moldova" id="392" weight="1.0" />
-      <edge source="Denmark" target="Albania" id="393" weight="1.0" />
-      <edge source="Denmark" target="Croatia" id="394" weight="1.0" />
-      <edge source="Denmark" target="Cyprus" id="395" weight="1.0" />
-      <edge source="Denmark" target="Finland" id="396" weight="1.0" />
-      <edge source="Denmark" target="France" id="397" weight="1.0" />
-      <edge source="Denmark" target="Greece" id="398" weight="1.0" />
-      <edge source="Denmark" target="Iceland" id="399" weight="1.0" />
-      <edge source="Denmark" target="Latvia" id="400" weight="1.0" />
-      <edge source="Denmark" target="Romania" id="401" weight="1.0" />
-      <edge source="Denmark" target="Spain" id="402" weight="1.0" />
-      <edge source="Denmark" target="Sweden" id="403" weight="1.0" />
-      <edge source="Denmark" target="the Netherlands" id="404" weight="1.0" />
-      <edge source="Denmark" target="Egypt" id="405" weight="1.0" />
-      <edge source="Denmark" target="the Czech Republic" id="406" weight="1.0" />
-      <edge source="Belarus" target="Azerbaijan" id="407" weight="1.0" />
-      <edge source="Belarus" target="Kazakhstan" id="408" weight="1.0" />
-      <edge source="Belarus" target="Kyrgyzstan" id="409" weight="1.0" />
-      <edge source="Belarus" target="Sweden" id="410" weight="1.0" />
-      <edge source="Belarus" target="Uzbekistan" id="411" weight="1.0" />
-      <edge source="North Macedonia" target="Albania" id="412" weight="1.0" />
-      <edge source="North Macedonia" target="Croatia" id="413" weight="1.0" />
-      <edge source="North Macedonia" target="France" id="414" weight="1.0" />
-      <edge source="North Macedonia" target="Greece" id="415" weight="1.0" />
-      <edge source="North Macedonia" target="Romania" id="416" weight="1.0" />
-      <edge source="North Macedonia" target="Spain" id="417" weight="1.0" />
-      <edge source="North Macedonia" target="the Netherlands" id="418" weight="1.0" />
-      <edge source="Moldova" target="Azerbaijan" id="419" weight="1.0" />
-      <edge source="Moldova" target="France" id="420" weight="1.0" />
-      <edge source="Moldova" target="Sweden" id="421" weight="1.0" />
-      <edge source="Australia" target="Chile" id="422" weight="1.0" />
-      <edge source="Australia" target="Argentina" id="423" weight="1.0" />
-      <edge source="Latvia" target="Canada" id="424" weight="1.0" />
-      <edge source="Latvia" target="Azerbaijan" id="425" weight="1.0" />
-      <edge source="Latvia" target="Israel" id="426" weight="1.0" />
-      <edge source="Latvia" target="Finland" id="427" weight="1.0" />
-      <edge source="Latvia" target="France" id="428" weight="1.0" />
-      <edge source="Latvia" target="Greece" id="429" weight="1.0" />
-      <edge source="Latvia" target="Spain" id="430" weight="1.0" />
-      <edge source="Latvia" target="Sweden" id="431" weight="1.0" />
-      <edge source="Latvia" target="the Czech Republic" id="432" weight="1.0" />
-      <edge source="Romania" target="Finland" id="433" weight="1.0" />
-      <edge source="Romania" target="France" id="434" weight="1.0" />
-      <edge source="Romania" target="Greece" id="435" weight="1.0" />
-      <edge source="Romania" target="Spain" id="436" weight="1.0" />
-      <edge source="Romania" target="Sweden" id="437" weight="1.0" />
-      <edge source="Romania" target="Armenia" id="438" weight="1.0" />
-      <edge source="Romania" target="Azerbaijan" id="439" weight="1.0" />
-      <edge source="Romania" target="Croatia" id="440" weight="1.0" />
-      <edge source="Romania" target="the Netherlands" id="441" weight="1.0" />
-      <edge source="Romania" target="Algeria" id="442" weight="1.0" />
-      <edge source="Romania" target="the Czech Republic" id="443" weight="1.0" />
-      <edge source="Switzerland" target="Greece" id="444" weight="1.0" />
-      <edge source="Switzerland" target="the Netherlands" id="445" weight="1.0" />
-      <edge source="Switzerland" target="Sweden" id="446" weight="1.0" />
-      <edge source="Chile" target="Argentina" id="447" weight="1.0" />
-      <edge source="Albania" target="Egypt" id="448" weight="1.0" />
-      <edge source="Albania" target="Croatia" id="449" weight="1.0" />
-      <edge source="Albania" target="France" id="450" weight="1.0" />
-      <edge source="Albania" target="Spain" id="451" weight="1.0" />
-      <edge source="Albania" target="Sweden" id="452" weight="1.0" />
-      <edge source="Turkmenistan" target="Armenia" id="453" weight="1.0" />
-      <edge source="Armenia" target="Kazakhstan" id="454" weight="1.0" />
-      <edge source="Armenia" target="Cyprus" id="455" weight="1.0" />
-      <edge source="Armenia" target="Greece" id="456" weight="1.0" />
-      <edge source="Armenia" target="Sweden" id="457" weight="1.0" />
-      <edge source="Armenia" target="the Netherlands" id="458" weight="1.0" />
-      <edge source="Armenia" target="the Czech Republic" id="459" weight="1.0" />
-      <edge source="Pakistan" target="Egypt" id="460" weight="1.0" />
-      <edge source="Pakistan" target="Thailand" id="461" weight="1.0" />
-      <edge source="Tunisia" target="Syria" id="462" weight="1.0" />
-      <edge source="Canada" target="Croatia" id="463" weight="1.0" />
-      <edge source="Canada" target="Greece" id="464" weight="1.0" />
-      <edge source="Canada" target="Argentina" id="465" weight="1.0" />
-      <edge source="Canada" target="Uruguay" id="466" weight="1.0" />
-      <edge source="Canada" target="Sweden" id="467" weight="1.0" />
-      <edge source="Croatia" target="Azerbaijan" id="468" weight="1.0" />
-      <edge source="Croatia" target="Finland" id="469" weight="1.0" />
-      <edge source="Croatia" target="France" id="470" weight="1.0" />
-      <edge source="Croatia" target="Greece" id="471" weight="1.0" />
-      <edge source="Croatia" target="Russia" id="472" weight="1.0" />
-      <edge source="Croatia" target="Spain" id="473" weight="1.0" />
-      <edge source="Croatia" target="Sweden" id="474" weight="1.0" />
-      <edge source="Jordan" target="Syria" id="475" weight="1.0" />
-      <edge source="Jordan" target="Cyprus" id="476" weight="1.0" />
-      <edge source="Greece" target="Lebanon" id="477" weight="1.0" />
-      <edge source="Greece" target="Syria" id="478" weight="1.0" />
-      <edge source="Greece" target="Bosnia and Herzegovina" id="479" weight="1.0" />
-      <edge source="Greece" target="Cyprus" id="480" weight="1.0" />
-      <edge source="Greece" target="Finland" id="481" weight="1.0" />
-      <edge source="Greece" target="Egypt" id="482" weight="1.0" />
-      <edge source="Greece" target="Spain" id="483" weight="1.0" />
-      <edge source="Greece" target="Algeria" id="484" weight="1.0" />
-      <edge source="Greece" target="Sweden" id="485" weight="1.0" />
-      <edge source="Greece" target="the Czech Republic" id="486" weight="1.0" />
-      <edge source="the Netherlands" target="Azerbaijan" id="487" weight="1.0" />
-      <edge source="the Netherlands" target="Finland" id="488" weight="1.0" />
-      <edge source="the Netherlands" target="Sweden" id="489" weight="1.0" />
-      <edge source="Saudi Arabia" target="Syria" id="490" weight="1.0" />
-      <edge source="Argentina" target="Algeria" id="491" weight="1.0" />
-      <edge source="Uruguay" target="France" id="492" weight="1.0" />
-      <edge source="Uzbekistan" target="Tajikistan" id="493" weight="1.0" />
-      <edge source="Egypt" target="Syria" id="494" weight="1.0" />
-      <edge source="Spain" target="Israel" id="495" weight="1.0" />
-      <edge source="Spain" target="Cyprus" id="496" weight="1.0" />
-      <edge source="Spain" target="Finland" id="497" weight="1.0" />
-      <edge source="Spain" target="France" id="498" weight="1.0" />
-      <edge source="Spain" target="Sweden" id="499" weight="1.0" />
-      <edge source="Finland" target="Israel" id="500" weight="1.0" />
-      <edge source="Finland" target="Cyprus" id="501" weight="1.0" />
-      <edge source="Finland" target="Iceland" id="502" weight="1.0" />
-      <edge source="Finland" target="Sweden" id="503" weight="1.0" />
-      <edge source="Algeria" target="Syria" id="504" weight="1.0" />
-      <edge source="Iceland" target="France" id="505" weight="1.0" />
-      <edge source="Iceland" target="Sweden" id="506" weight="1.0" />
-      <edge source="Cambodia" target="Russia" id="507" weight="1.0" />
-      <edge source="Mauritania" target="Syria" id="508" weight="1.0" />
-      <edge source="Sweden" target="France" id="509" weight="1.0" />
-      <edge source="Syria" target="Cyprus" id="510" weight="1.0" />
-      <edge source="Cyprus" target="Israel" id="511" weight="1.0" />
-      <edge source="Cyprus" target="Kazakhstan" id="512" weight="1.0" />
-      <edge source="Cyprus" target="Lebanon" id="513" weight="1.0" />
-      <edge source="Cyprus" target="France" id="514" weight="1.0" />
-      <edge source="Mauritius" target="France" id="515" weight="1.0" />
+      <edge source="Malaysia" target="Colombia" id="4" weight="1.0" />
+      <edge source="Malaysia" target="New Zealand" id="5" weight="1.0" />
+      <edge source="Malaysia" target="Turkey" id="6" weight="1.0" />
+      <edge source="Malaysia" target="Australia" id="7" weight="1.0" />
+      <edge source="South Korea" target="Ireland" id="8" weight="1.0" />
+      <edge source="South Korea" target="Turkey" id="9" weight="1.0" />
+      <edge source="South Korea" target="Indonesia" id="10" weight="1.0" />
+      <edge source="South Korea" target="Poland" id="11" weight="1.0" />
+      <edge source="Morocco" target="Bulgaria" id="12" weight="1.0" />
+      <edge source="Morocco" target="Croatia" id="13" weight="1.0" />
+      <edge source="Morocco" target="Romania" id="14" weight="1.0" />
+      <edge source="Morocco" target="Cyprus" id="15" weight="1.0" />
+      <edge source="El Salvador" target="Mexico" id="16" weight="1.0" />
+      <edge source="Belgium" target="Canada" id="17" weight="1.0" />
+      <edge source="Belgium" target="Azerbaijan" id="18" weight="1.0" />
+      <edge source="Belgium" target="Turkey" id="19" weight="1.0" />
+      <edge source="Belgium" target="Austria" id="20" weight="1.0" />
+      <edge source="Belgium" target="Bulgaria" id="21" weight="1.0" />
+      <edge source="Belgium" target="Croatia" id="22" weight="1.0" />
+      <edge source="Belgium" target="Cyprus" id="23" weight="1.0" />
+      <edge source="Belgium" target="the Czech Republic" id="24" weight="1.0" />
+      <edge source="Belgium" target="Denmark" id="25" weight="1.0" />
+      <edge source="Belgium" target="Finland" id="26" weight="1.0" />
+      <edge source="Belgium" target="France" id="27" weight="1.0" />
+      <edge source="Belgium" target="Greece" id="28" weight="1.0" />
+      <edge source="Belgium" target="Ireland" id="29" weight="1.0" />
+      <edge source="Belgium" target="Italy" id="30" weight="1.0" />
+      <edge source="Belgium" target="Luxembourg" id="31" weight="1.0" />
+      <edge source="Belgium" target="the Netherlands" id="32" weight="1.0" />
+      <edge source="Belgium" target="Norway" id="33" weight="1.0" />
+      <edge source="Belgium" target="Poland" id="34" weight="1.0" />
+      <edge source="Belgium" target="Portugal" id="35" weight="1.0" />
+      <edge source="Belgium" target="Romania" id="36" weight="1.0" />
+      <edge source="Belgium" target="Spain" id="37" weight="1.0" />
+      <edge source="Belgium" target="Hungary" id="38" weight="1.0" />
+      <edge source="Belgium" target="Germany" id="39" weight="1.0" />
+      <edge source="Belgium" target="Malta" id="40" weight="1.0" />
+      <edge source="China" target="the United Kingdom" id="41" weight="1.0" />
+      <edge source="China" target="Turkey" id="42" weight="1.0" />
+      <edge source="the United States" target="Finland" id="43" weight="1.0" />
+      <edge source="the United States" target="the Netherlands" id="44" weight="1.0" />
+      <edge source="the United States" target="Sweden" id="45" weight="1.0" />
+      <edge source="the United States" target="Turkey" id="46" weight="1.0" />
+      <edge source="the United States" target="the United Kingdom" id="47" weight="1.0" />
+      <edge source="the United States" target="Palau" id="48" weight="1.0" />
+      <edge source="the United States" target="Poland" id="49" weight="1.0" />
+      <edge source="Hungary" target="Israel" id="50" weight="1.0" />
+      <edge source="Hungary" target="Turkey" id="51" weight="1.0" />
+      <edge source="Hungary" target="Albania" id="52" weight="1.0" />
+      <edge source="Hungary" target="Austria" id="53" weight="1.0" />
+      <edge source="Hungary" target="Bulgaria" id="54" weight="1.0" />
+      <edge source="Hungary" target="Croatia" id="55" weight="1.0" />
+      <edge source="Hungary" target="Cyprus" id="56" weight="1.0" />
+      <edge source="Hungary" target="the Czech Republic" id="57" weight="1.0" />
+      <edge source="Hungary" target="Denmark" id="58" weight="1.0" />
+      <edge source="Hungary" target="Estonia" id="59" weight="1.0" />
+      <edge source="Hungary" target="Finland" id="60" weight="1.0" />
+      <edge source="Hungary" target="France" id="61" weight="1.0" />
+      <edge source="Hungary" target="Germany" id="62" weight="1.0" />
+      <edge source="Hungary" target="Greece" id="63" weight="1.0" />
+      <edge source="Hungary" target="Ireland" id="64" weight="1.0" />
+      <edge source="Hungary" target="Italy" id="65" weight="1.0" />
+      <edge source="Hungary" target="Latvia" id="66" weight="1.0" />
+      <edge source="Hungary" target="Lithuania" id="67" weight="1.0" />
+      <edge source="Hungary" target="Malta" id="68" weight="1.0" />
+      <edge source="Hungary" target="the Netherlands" id="69" weight="1.0" />
+      <edge source="Hungary" target="North Macedonia" id="70" weight="1.0" />
+      <edge source="Hungary" target="Norway" id="71" weight="1.0" />
+      <edge source="Hungary" target="Poland" id="72" weight="1.0" />
+      <edge source="Hungary" target="Portugal" id="73" weight="1.0" />
+      <edge source="Hungary" target="Romania" id="74" weight="1.0" />
+      <edge source="Hungary" target="Russia" id="75" weight="1.0" />
+      <edge source="Hungary" target="Slovakia" id="76" weight="1.0" />
+      <edge source="Hungary" target="Slovenia" id="77" weight="1.0" />
+      <edge source="Hungary" target="Spain" id="78" weight="1.0" />
+      <edge source="Hungary" target="Sweden" id="79" weight="1.0" />
+      <edge source="Hungary" target="Switzerland" id="80" weight="1.0" />
+      <edge source="Hungary" target="Belarus" id="81" weight="1.0" />
+      <edge source="Hungary" target="Bosnia and Herzegovina" id="82" weight="1.0" />
+      <edge source="Luxembourg" target="Canada" id="83" weight="1.0" />
+      <edge source="Luxembourg" target="Austria" id="84" weight="1.0" />
+      <edge source="Luxembourg" target="Cyprus" id="85" weight="1.0" />
+      <edge source="Luxembourg" target="the Czech Republic" id="86" weight="1.0" />
+      <edge source="Luxembourg" target="Denmark" id="87" weight="1.0" />
+      <edge source="Luxembourg" target="France" id="88" weight="1.0" />
+      <edge source="Luxembourg" target="Germany" id="89" weight="1.0" />
+      <edge source="Luxembourg" target="Greece" id="90" weight="1.0" />
+      <edge source="Luxembourg" target="Ireland" id="91" weight="1.0" />
+      <edge source="Luxembourg" target="Italy" id="92" weight="1.0" />
+      <edge source="Luxembourg" target="Lithuania" id="93" weight="1.0" />
+      <edge source="Luxembourg" target="the Netherlands" id="94" weight="1.0" />
+      <edge source="Luxembourg" target="Poland" id="95" weight="1.0" />
+      <edge source="Luxembourg" target="Russia" id="96" weight="1.0" />
+      <edge source="Luxembourg" target="Spain" id="97" weight="1.0" />
+      <edge source="Luxembourg" target="Ukraine" id="98" weight="1.0" />
+      <edge source="Luxembourg" target="Portugal" id="99" weight="1.0" />
+      <edge source="Luxembourg" target="Turkey" id="100" weight="1.0" />
+      <edge source="Luxembourg" target="Malta" id="101" weight="1.0" />
+      <edge source="Luxembourg" target="Croatia" id="102" weight="1.0" />
+      <edge source="Luxembourg" target="Finland" id="103" weight="1.0" />
+      <edge source="Seychelles" target="Mauritius" id="104" weight="1.0" />
+      <edge source="Seychelles" target="France" id="105" weight="1.0" />
+      <edge source="Seychelles" target="Switzerland" id="106" weight="1.0" />
+      <edge source="Seychelles" target="Cyprus" id="107" weight="1.0" />
+      <edge source="Cuba" target="Guyana" id="108" weight="1.0" />
+      <edge source="the United Kingdom" target="Russia" id="109" weight="1.0" />
+      <edge source="the United Kingdom" target="Peru" id="110" weight="1.0" />
+      <edge source="the United Kingdom" target="the Solomon Islands" id="111" weight="1.0" />
+      <edge source="the United Kingdom" target="Turkey" id="112" weight="1.0" />
+      <edge source="the United Kingdom" target="Ireland" id="113" weight="1.0" />
+      <edge source="the United Kingdom" target="Australia" id="114" weight="1.0" />
+      <edge source="the United Kingdom" target="Zimbabwe" id="115" weight="1.0" />
+      <edge source="the United Kingdom" target="Finland" id="116" weight="1.0" />
+      <edge source="Colombia" target="Argentina" id="117" weight="1.0" />
+      <edge source="Colombia" target="Chile" id="118" weight="1.0" />
+      <edge source="Colombia" target="Guyana" id="119" weight="1.0" />
+      <edge source="Colombia" target="Mexico" id="120" weight="1.0" />
+      <edge source="Colombia" target="Paraguay" id="121" weight="1.0" />
+      <edge source="Colombia" target="Peru" id="122" weight="1.0" />
+      <edge source="Colombia" target="Indonesia" id="123" weight="1.0" />
+      <edge source="Colombia" target="Turkey" id="124" weight="1.0" />
+      <edge source="Colombia" target="Poland" id="125" weight="1.0" />
+      <edge source="Bulgaria" target="Algeria" id="126" weight="1.0" />
+      <edge source="Bulgaria" target="Egypt" id="127" weight="1.0" />
+      <edge source="Bulgaria" target="Armenia" id="128" weight="1.0" />
+      <edge source="Bulgaria" target="Azerbaijan" id="129" weight="1.0" />
+      <edge source="Bulgaria" target="Georgia" id="130" weight="1.0" />
+      <edge source="Bulgaria" target="Israel" id="131" weight="1.0" />
+      <edge source="Bulgaria" target="Lebanon" id="132" weight="1.0" />
+      <edge source="Bulgaria" target="Syria" id="133" weight="1.0" />
+      <edge source="Bulgaria" target="Turkey" id="134" weight="1.0" />
+      <edge source="Bulgaria" target="Albania" id="135" weight="1.0" />
+      <edge source="Bulgaria" target="Austria" id="136" weight="1.0" />
+      <edge source="Bulgaria" target="Bosnia and Herzegovina" id="137" weight="1.0" />
+      <edge source="Bulgaria" target="Croatia" id="138" weight="1.0" />
+      <edge source="Bulgaria" target="Cyprus" id="139" weight="1.0" />
+      <edge source="Bulgaria" target="the Czech Republic" id="140" weight="1.0" />
+      <edge source="Bulgaria" target="Denmark" id="141" weight="1.0" />
+      <edge source="Bulgaria" target="Estonia" id="142" weight="1.0" />
+      <edge source="Bulgaria" target="Finland" id="143" weight="1.0" />
+      <edge source="Bulgaria" target="France" id="144" weight="1.0" />
+      <edge source="Bulgaria" target="Germany" id="145" weight="1.0" />
+      <edge source="Bulgaria" target="Greece" id="146" weight="1.0" />
+      <edge source="Bulgaria" target="Ireland" id="147" weight="1.0" />
+      <edge source="Bulgaria" target="Italy" id="148" weight="1.0" />
+      <edge source="Bulgaria" target="Latvia" id="149" weight="1.0" />
+      <edge source="Bulgaria" target="Lithuania" id="150" weight="1.0" />
+      <edge source="Bulgaria" target="the Netherlands" id="151" weight="1.0" />
+      <edge source="Bulgaria" target="Poland" id="152" weight="1.0" />
+      <edge source="Bulgaria" target="Portugal" id="153" weight="1.0" />
+      <edge source="Bulgaria" target="Romania" id="154" weight="1.0" />
+      <edge source="Bulgaria" target="Slovakia" id="155" weight="1.0" />
+      <edge source="Bulgaria" target="Spain" id="156" weight="1.0" />
+      <edge source="Bulgaria" target="Sweden" id="157" weight="1.0" />
+      <edge source="Bulgaria" target="Belarus" id="158" weight="1.0" />
+      <edge source="Bulgaria" target="North Macedonia" id="159" weight="1.0" />
+      <edge source="Bulgaria" target="Moldova" id="160" weight="1.0" />
+      <edge source="Somalia" target="Yemen" id="161" weight="1.0" />
+      <edge source="Somalia" target="Syria" id="162" weight="1.0" />
+      <edge source="Uganda" target="New Zealand" id="163" weight="1.0" />
+      <edge source="Slovenia" target="Egypt" id="164" weight="1.0" />
+      <edge source="Slovenia" target="Turkey" id="165" weight="1.0" />
+      <edge source="Slovenia" target="Albania" id="166" weight="1.0" />
+      <edge source="Slovenia" target="Austria" id="167" weight="1.0" />
+      <edge source="Slovenia" target="Cyprus" id="168" weight="1.0" />
+      <edge source="Slovenia" target="the Czech Republic" id="169" weight="1.0" />
+      <edge source="Slovenia" target="Denmark" id="170" weight="1.0" />
+      <edge source="Slovenia" target="Finland" id="171" weight="1.0" />
+      <edge source="Slovenia" target="France" id="172" weight="1.0" />
+      <edge source="Slovenia" target="Germany" id="173" weight="1.0" />
+      <edge source="Slovenia" target="Greece" id="174" weight="1.0" />
+      <edge source="Slovenia" target="Ireland" id="175" weight="1.0" />
+      <edge source="Slovenia" target="Italy" id="176" weight="1.0" />
+      <edge source="Slovenia" target="Montenegro" id="177" weight="1.0" />
+      <edge source="Slovenia" target="the Netherlands" id="178" weight="1.0" />
+      <edge source="Slovenia" target="Poland" id="179" weight="1.0" />
+      <edge source="Slovenia" target="Romania" id="180" weight="1.0" />
+      <edge source="Slovenia" target="Spain" id="181" weight="1.0" />
+      <edge source="Slovenia" target="Sweden" id="182" weight="1.0" />
+      <edge source="Slovenia" target="Ukraine" id="183" weight="1.0" />
+      <edge source="Slovenia" target="Malta" id="184" weight="1.0" />
+      <edge source="Slovenia" target="Estonia" id="185" weight="1.0" />
+      <edge source="Slovenia" target="North Macedonia" id="186" weight="1.0" />
+      <edge source="Slovenia" target="Moldova" id="187" weight="1.0" />
+      <edge source="Slovenia" target="Armenia" id="188" weight="1.0" />
+      <edge source="Slovenia" target="Croatia" id="189" weight="1.0" />
+      <edge source="Germany" target="Turkey" id="190" weight="1.0" />
+      <edge source="Germany" target="Albania" id="191" weight="1.0" />
+      <edge source="Germany" target="Austria" id="192" weight="1.0" />
+      <edge source="Germany" target="Croatia" id="193" weight="1.0" />
+      <edge source="Germany" target="Cyprus" id="194" weight="1.0" />
+      <edge source="Germany" target="the Czech Republic" id="195" weight="1.0" />
+      <edge source="Germany" target="Denmark" id="196" weight="1.0" />
+      <edge source="Germany" target="Estonia" id="197" weight="1.0" />
+      <edge source="Germany" target="Finland" id="198" weight="1.0" />
+      <edge source="Germany" target="France" id="199" weight="1.0" />
+      <edge source="Germany" target="Greece" id="200" weight="1.0" />
+      <edge source="Germany" target="Georgia" id="201" weight="1.0" />
+      <edge source="Germany" target="Iceland" id="202" weight="1.0" />
+      <edge source="Germany" target="Ireland" id="203" weight="1.0" />
+      <edge source="Germany" target="Italy" id="204" weight="1.0" />
+      <edge source="Germany" target="Latvia" id="205" weight="1.0" />
+      <edge source="Germany" target="Lithuania" id="206" weight="1.0" />
+      <edge source="Germany" target="Malta" id="207" weight="1.0" />
+      <edge source="Germany" target="Moldova" id="208" weight="1.0" />
+      <edge source="Germany" target="Montenegro" id="209" weight="1.0" />
+      <edge source="Germany" target="the Netherlands" id="210" weight="1.0" />
+      <edge source="Germany" target="North Macedonia" id="211" weight="1.0" />
+      <edge source="Germany" target="Norway" id="212" weight="1.0" />
+      <edge source="Germany" target="Poland" id="213" weight="1.0" />
+      <edge source="Germany" target="Portugal" id="214" weight="1.0" />
+      <edge source="Germany" target="Romania" id="215" weight="1.0" />
+      <edge source="Germany" target="Slovakia" id="216" weight="1.0" />
+      <edge source="Germany" target="Spain" id="217" weight="1.0" />
+      <edge source="Germany" target="Sweden" id="218" weight="1.0" />
+      <edge source="Germany" target="Ukraine" id="219" weight="1.0" />
+      <edge source="Norway" target="Armenia" id="220" weight="1.0" />
+      <edge source="Norway" target="Georgia" id="221" weight="1.0" />
+      <edge source="Norway" target="Turkey" id="222" weight="1.0" />
+      <edge source="Norway" target="Austria" id="223" weight="1.0" />
+      <edge source="Norway" target="Croatia" id="224" weight="1.0" />
+      <edge source="Norway" target="Cyprus" id="225" weight="1.0" />
+      <edge source="Norway" target="Denmark" id="226" weight="1.0" />
+      <edge source="Norway" target="Estonia" id="227" weight="1.0" />
+      <edge source="Norway" target="Finland" id="228" weight="1.0" />
+      <edge source="Norway" target="France" id="229" weight="1.0" />
+      <edge source="Norway" target="Greece" id="230" weight="1.0" />
+      <edge source="Norway" target="Iceland" id="231" weight="1.0" />
+      <edge source="Norway" target="Ireland" id="232" weight="1.0" />
+      <edge source="Norway" target="Italy" id="233" weight="1.0" />
+      <edge source="Norway" target="the Netherlands" id="234" weight="1.0" />
+      <edge source="Norway" target="Poland" id="235" weight="1.0" />
+      <edge source="Norway" target="Romania" id="236" weight="1.0" />
+      <edge source="Norway" target="Serbia" id="237" weight="1.0" />
+      <edge source="Norway" target="Spain" id="238" weight="1.0" />
+      <edge source="Norway" target="Sweden" id="239" weight="1.0" />
+      <edge source="Norway" target="Ukraine" id="240" weight="1.0" />
+      <edge source="Norway" target="Portugal" id="241" weight="1.0" />
+      <edge source="Norway" target="North Macedonia" id="242" weight="1.0" />
+      <edge source="Panama" target="Indonesia" id="243" weight="1.0" />
+      <edge source="Lithuania" target="Turkey" id="244" weight="1.0" />
+      <edge source="Lithuania" target="Italy" id="245" weight="1.0" />
+      <edge source="Lithuania" target="Ukraine" id="246" weight="1.0" />
+      <edge source="Lithuania" target="Ireland" id="247" weight="1.0" />
+      <edge source="Lithuania" target="Poland" id="248" weight="1.0" />
+      <edge source="Lithuania" target="Malta" id="249" weight="1.0" />
+      <edge source="Lithuania" target="Estonia" id="250" weight="1.0" />
+      <edge source="Lithuania" target="Denmark" id="251" weight="1.0" />
+      <edge source="Lithuania" target="Moldova" id="252" weight="1.0" />
+      <edge source="Lithuania" target="Latvia" id="253" weight="1.0" />
+      <edge source="Lithuania" target="Armenia" id="254" weight="1.0" />
+      <edge source="Lithuania" target="Greece" id="255" weight="1.0" />
+      <edge source="Lithuania" target="the Netherlands" id="256" weight="1.0" />
+      <edge source="Lithuania" target="Spain" id="257" weight="1.0" />
+      <edge source="Lithuania" target="Finland" id="258" weight="1.0" />
+      <edge source="Lithuania" target="Iceland" id="259" weight="1.0" />
+      <edge source="Lithuania" target="Sweden" id="260" weight="1.0" />
+      <edge source="Lithuania" target="Cyprus" id="261" weight="1.0" />
+      <edge source="Lithuania" target="the Czech Republic" id="262" weight="1.0" />
+      <edge source="Venezuela" target="Mexico" id="263" weight="1.0" />
+      <edge source="Portugal" target="Argentina" id="264" weight="1.0" />
+      <edge source="Portugal" target="Mexico" id="265" weight="1.0" />
+      <edge source="Portugal" target="Turkey" id="266" weight="1.0" />
+      <edge source="Portugal" target="Albania" id="267" weight="1.0" />
+      <edge source="Portugal" target="Austria" id="268" weight="1.0" />
+      <edge source="Portugal" target="Croatia" id="269" weight="1.0" />
+      <edge source="Portugal" target="Cyprus" id="270" weight="1.0" />
+      <edge source="Portugal" target="the Czech Republic" id="271" weight="1.0" />
+      <edge source="Portugal" target="Denmark" id="272" weight="1.0" />
+      <edge source="Portugal" target="Finland" id="273" weight="1.0" />
+      <edge source="Portugal" target="France" id="274" weight="1.0" />
+      <edge source="Portugal" target="Greece" id="275" weight="1.0" />
+      <edge source="Portugal" target="Iceland" id="276" weight="1.0" />
+      <edge source="Portugal" target="Ireland" id="277" weight="1.0" />
+      <edge source="Portugal" target="Italy" id="278" weight="1.0" />
+      <edge source="Portugal" target="the Netherlands" id="279" weight="1.0" />
+      <edge source="Portugal" target="North Macedonia" id="280" weight="1.0" />
+      <edge source="Portugal" target="Poland" id="281" weight="1.0" />
+      <edge source="Portugal" target="Romania" id="282" weight="1.0" />
+      <edge source="Portugal" target="Russia" id="283" weight="1.0" />
+      <edge source="Portugal" target="Spain" id="284" weight="1.0" />
+      <edge source="Portugal" target="Sweden" id="285" weight="1.0" />
+      <edge source="Portugal" target="Ukraine" id="286" weight="1.0" />
+      <edge source="Portugal" target="Slovakia" id="287" weight="1.0" />
+      <edge source="Portugal" target="Mozambique" id="288" weight="1.0" />
+      <edge source="Portugal" target="Brazil" id="289" weight="1.0" />
+      <edge source="Portugal" target="Malta" id="290" weight="1.0" />
+      <edge source="Portugal" target="Latvia" id="291" weight="1.0" />
+      <edge source="Portugal" target="Armenia" id="292" weight="1.0" />
+      <edge source="Nicaragua" target="Spain" id="293" weight="1.0" />
+      <edge source="Nicaragua" target="Bolivia" id="294" weight="1.0" />
+      <edge source="Bangladesh" target="Turkey" id="295" weight="1.0" />
+      <edge source="Bangladesh" target="Nigeria" id="296" weight="1.0" />
+      <edge source="Bangladesh" target="Egypt" id="297" weight="1.0" />
+      <edge source="Slovakia" target="Turkey" id="298" weight="1.0" />
+      <edge source="Slovakia" target="Croatia" id="299" weight="1.0" />
+      <edge source="Slovakia" target="the Czech Republic" id="300" weight="1.0" />
+      <edge source="Slovakia" target="Denmark" id="301" weight="1.0" />
+      <edge source="Slovakia" target="France" id="302" weight="1.0" />
+      <edge source="Slovakia" target="Greece" id="303" weight="1.0" />
+      <edge source="Slovakia" target="Italy" id="304" weight="1.0" />
+      <edge source="Slovakia" target="the Netherlands" id="305" weight="1.0" />
+      <edge source="Slovakia" target="Poland" id="306" weight="1.0" />
+      <edge source="Slovakia" target="Romania" id="307" weight="1.0" />
+      <edge source="Slovakia" target="Spain" id="308" weight="1.0" />
+      <edge source="Slovakia" target="Ireland" id="309" weight="1.0" />
+      <edge source="Slovakia" target="Austria" id="310" weight="1.0" />
+      <edge source="Slovakia" target="Finland" id="311" weight="1.0" />
+      <edge source="Yemen" target="Syria" id="312" weight="1.0" />
+      <edge source="Ecuador" target="Indonesia" id="313" weight="1.0" />
+      <edge source="Ecuador" target="Spain" id="314" weight="1.0" />
+      <edge source="Georgia" target="Armenia" id="315" weight="1.0" />
+      <edge source="Georgia" target="Azerbaijan" id="316" weight="1.0" />
+      <edge source="Georgia" target="Kazakhstan" id="317" weight="1.0" />
+      <edge source="Georgia" target="Kyrgyzstan" id="318" weight="1.0" />
+      <edge source="Georgia" target="Tajikistan" id="319" weight="1.0" />
+      <edge source="Georgia" target="Turkey" id="320" weight="1.0" />
+      <edge source="Georgia" target="Denmark" id="321" weight="1.0" />
+      <edge source="Georgia" target="France" id="322" weight="1.0" />
+      <edge source="Georgia" target="Greece" id="323" weight="1.0" />
+      <edge source="Georgia" target="Italy" id="324" weight="1.0" />
+      <edge source="Georgia" target="the Netherlands" id="325" weight="1.0" />
+      <edge source="Georgia" target="Poland" id="326" weight="1.0" />
+      <edge source="Georgia" target="Sweden" id="327" weight="1.0" />
+      <edge source="Georgia" target="Austria" id="328" weight="1.0" />
+      <edge source="Georgia" target="Malta" id="329" weight="1.0" />
+      <edge source="Georgia" target="Estonia" id="330" weight="1.0" />
+      <edge source="Georgia" target="Croatia" id="331" weight="1.0" />
+      <edge source="Georgia" target="Finland" id="332" weight="1.0" />
+      <edge source="Paraguay" target="South Africa" id="333" weight="1.0" />
+      <edge source="Paraguay" target="Peru" id="334" weight="1.0" />
+      <edge source="Paraguay" target="Spain" id="335" weight="1.0" />
+      <edge source="Paraguay" target="Uruguay" id="336" weight="1.0" />
+      <edge source="Senegal" target="Indonesia" id="337" weight="1.0" />
+      <edge source="Namibia" target="Cyprus" id="338" weight="1.0" />
+      <edge source="Mexico" target="Belize" id="339" weight="1.0" />
+      <edge source="Mexico" target="Bolivia" id="340" weight="1.0" />
+      <edge source="Mexico" target="Brazil" id="341" weight="1.0" />
+      <edge source="Mexico" target="the Dominican Republic" id="342" weight="1.0" />
+      <edge source="Mexico" target="Guatemala" id="343" weight="1.0" />
+      <edge source="Mexico" target="Turkey" id="344" weight="1.0" />
+      <edge source="Mexico" target="Australia" id="345" weight="1.0" />
+      <edge source="Mexico" target="New Zealand" id="346" weight="1.0" />
+      <edge source="Mexico" target="Italy" id="347" weight="1.0" />
+      <edge source="Mexico" target="Poland" id="348" weight="1.0" />
+      <edge source="Mexico" target="Peru" id="349" weight="1.0" />
+      <edge source="Mexico" target="Switzerland" id="350" weight="1.0" />
+      <edge source="Mexico" target="Chile" id="351" weight="1.0" />
+      <edge source="Mexico" target="Argentina" id="352" weight="1.0" />
+      <edge source="Mexico" target="Uruguay" id="353" weight="1.0" />
+      <edge source="Mexico" target="Spain" id="354" weight="1.0" />
+      <edge source="New Zealand" target="Zambia" id="355" weight="1.0" />
+      <edge source="New Zealand" target="Argentina" id="356" weight="1.0" />
+      <edge source="New Zealand" target="Guyana" id="357" weight="1.0" />
+      <edge source="New Zealand" target="Uruguay" id="358" weight="1.0" />
+      <edge source="New Zealand" target="Indonesia" id="359" weight="1.0" />
+      <edge source="New Zealand" target="the Maldives" id="360" weight="1.0" />
+      <edge source="New Zealand" target="Turkey" id="361" weight="1.0" />
+      <edge source="New Zealand" target="Cyprus" id="362" weight="1.0" />
+      <edge source="New Zealand" target="Ireland" id="363" weight="1.0" />
+      <edge source="New Zealand" target="Russia" id="364" weight="1.0" />
+      <edge source="New Zealand" target="Poland" id="365" weight="1.0" />
+      <edge source="Turkey" target="Argentina" id="366" weight="1.0" />
+      <edge source="Turkey" target="Chile" id="367" weight="1.0" />
+      <edge source="Turkey" target="Canada" id="368" weight="1.0" />
+      <edge source="Turkey" target="Brazil" id="369" weight="1.0" />
+      <edge source="Turkey" target="Azerbaijan" id="370" weight="1.0" />
+      <edge source="Turkey" target="Kazakhstan" id="371" weight="1.0" />
+      <edge source="Turkey" target="Kyrgyzstan" id="372" weight="1.0" />
+      <edge source="Turkey" target="Turkmenistan" id="373" weight="1.0" />
+      <edge source="Turkey" target="Uzbekistan" id="374" weight="1.0" />
+      <edge source="Turkey" target="Afghanistan" id="375" weight="1.0" />
+      <edge source="Turkey" target="Australia" id="376" weight="1.0" />
+      <edge source="Turkey" target="India" id="377" weight="1.0" />
+      <edge source="Turkey" target="Indonesia" id="378" weight="1.0" />
+      <edge source="Turkey" target="Japan" id="379" weight="1.0" />
+      <edge source="Turkey" target="Mongolia" id="380" weight="1.0" />
+      <edge source="Turkey" target="Pakistan" id="381" weight="1.0" />
+      <edge source="Turkey" target="Tajikistan" id="382" weight="1.0" />
+      <edge source="Turkey" target="Iran" id="383" weight="1.0" />
+      <edge source="Turkey" target="Albania" id="384" weight="1.0" />
+      <edge source="Turkey" target="Austria" id="385" weight="1.0" />
+      <edge source="Turkey" target="Belarus" id="386" weight="1.0" />
+      <edge source="Turkey" target="Croatia" id="387" weight="1.0" />
+      <edge source="Turkey" target="the Czech Republic" id="388" weight="1.0" />
+      <edge source="Turkey" target="Denmark" id="389" weight="1.0" />
+      <edge source="Turkey" target="Estonia" id="390" weight="1.0" />
+      <edge source="Turkey" target="Finland" id="391" weight="1.0" />
+      <edge source="Turkey" target="France" id="392" weight="1.0" />
+      <edge source="Turkey" target="Greece" id="393" weight="1.0" />
+      <edge source="Turkey" target="Ireland" id="394" weight="1.0" />
+      <edge source="Turkey" target="Italy" id="395" weight="1.0" />
+      <edge source="Turkey" target="Latvia" id="396" weight="1.0" />
+      <edge source="Turkey" target="Malta" id="397" weight="1.0" />
+      <edge source="Turkey" target="Moldova" id="398" weight="1.0" />
+      <edge source="Turkey" target="the Netherlands" id="399" weight="1.0" />
+      <edge source="Turkey" target="North Macedonia" id="400" weight="1.0" />
+      <edge source="Turkey" target="Poland" id="401" weight="1.0" />
+      <edge source="Turkey" target="Romania" id="402" weight="1.0" />
+      <edge source="Turkey" target="Russia" id="403" weight="1.0" />
+      <edge source="Turkey" target="Serbia" id="404" weight="1.0" />
+      <edge source="Turkey" target="Spain" id="405" weight="1.0" />
+      <edge source="Turkey" target="Sweden" id="406" weight="1.0" />
+      <edge source="Turkey" target="Switzerland" id="407" weight="1.0" />
+      <edge source="Turkey" target="Ukraine" id="408" weight="1.0" />
+      <edge source="Turkey" target="Saudi Arabia" id="409" weight="1.0" />
+      <edge source="Turkey" target="Mauritania" id="410" weight="1.0" />
+      <edge source="South Africa" target="Argentina" id="411" weight="1.0" />
+      <edge source="South Africa" target="Nigeria" id="412" weight="1.0" />
+      <edge source="Guinea-Bissau" target="Brazil" id="413" weight="1.0" />
+      <edge source="Guinea-Bissau" target="Egypt" id="414" weight="1.0" />
+      <edge source="Iran" target="Azerbaijan" id="415" weight="1.0" />
+      <edge source="Brazil" target="Jamaica" id="416" weight="1.0" />
+      <edge source="Brazil" target="Iraq" id="417" weight="1.0" />
+      <edge source="Kuwait" target="Syria" id="418" weight="1.0" />
+      <edge source="Guinea" target="Ivory Coast" id="419" weight="1.0" />
+      <edge source="Italy" target="Tunisia" id="420" weight="1.0" />
+      <edge source="Italy" target="Canada" id="421" weight="1.0" />
+      <edge source="Italy" target="Armenia" id="422" weight="1.0" />
+      <edge source="Italy" target="Azerbaijan" id="423" weight="1.0" />
+      <edge source="Italy" target="Israel" id="424" weight="1.0" />
+      <edge source="Italy" target="Austria" id="425" weight="1.0" />
+      <edge source="Italy" target="Croatia" id="426" weight="1.0" />
+      <edge source="Italy" target="Cyprus" id="427" weight="1.0" />
+      <edge source="Italy" target="the Czech Republic" id="428" weight="1.0" />
+      <edge source="Italy" target="Denmark" id="429" weight="1.0" />
+      <edge source="Italy" target="Estonia" id="430" weight="1.0" />
+      <edge source="Italy" target="Greece" id="431" weight="1.0" />
+      <edge source="Italy" target="Iceland" id="432" weight="1.0" />
+      <edge source="Italy" target="Ireland" id="433" weight="1.0" />
+      <edge source="Italy" target="Latvia" id="434" weight="1.0" />
+      <edge source="Italy" target="Malta" id="435" weight="1.0" />
+      <edge source="Italy" target="the Netherlands" id="436" weight="1.0" />
+      <edge source="Italy" target="North Macedonia" id="437" weight="1.0" />
+      <edge source="Italy" target="Poland" id="438" weight="1.0" />
+      <edge source="Italy" target="Romania" id="439" weight="1.0" />
+      <edge source="Italy" target="Spain" id="440" weight="1.0" />
+      <edge source="Italy" target="Sweden" id="441" weight="1.0" />
+      <edge source="Italy" target="Ukraine" id="442" weight="1.0" />
+      <edge source="Italy" target="Moldova" id="443" weight="1.0" />
+      <edge source="Italy" target="Uruguay" id="444" weight="1.0" />
+      <edge source="Italy" target="Egypt" id="445" weight="1.0" />
+      <edge source="Italy" target="Finland" id="446" weight="1.0" />
+      <edge source="Italy" target="Algeria" id="447" weight="1.0" />
+      <edge source="Ukraine" target="Azerbaijan" id="448" weight="1.0" />
+      <edge source="Ukraine" target="Belarus" id="449" weight="1.0" />
+      <edge source="Ukraine" target="Ireland" id="450" weight="1.0" />
+      <edge source="Ukraine" target="Poland" id="451" weight="1.0" />
+      <edge source="Ukraine" target="Austria" id="452" weight="1.0" />
+      <edge source="Ukraine" target="Croatia" id="453" weight="1.0" />
+      <edge source="Ukraine" target="the Netherlands" id="454" weight="1.0" />
+      <edge source="Ukraine" target="Spain" id="455" weight="1.0" />
+      <edge source="Ukraine" target="Finland" id="456" weight="1.0" />
+      <edge source="Ukraine" target="Iceland" id="457" weight="1.0" />
+      <edge source="Ukraine" target="Sweden" id="458" weight="1.0" />
+      <edge source="India" target="Malta" id="459" weight="1.0" />
+      <edge source="India" target="Cyprus" id="460" weight="1.0" />
+      <edge source="Vietnam" target="Cambodia" id="461" weight="1.0" />
+      <edge source="Vietnam" target="Indonesia" id="462" weight="1.0" />
+      <edge source="Vietnam" target="Thailand" id="463" weight="1.0" />
+      <edge source="Vietnam" target="Mauritius" id="464" weight="1.0" />
+      <edge source="Ivory Coast" target="Liberia" id="465" weight="1.0" />
+      <edge source="Indonesia" target="the Philippines" id="466" weight="1.0" />
+      <edge source="Indonesia" target="Singapore" id="467" weight="1.0" />
+      <edge source="Indonesia" target="Thailand" id="468" weight="1.0" />
+      <edge source="Indonesia" target="Canada" id="469" weight="1.0" />
+      <edge source="Indonesia" target="Kazakhstan" id="470" weight="1.0" />
+      <edge source="Indonesia" target="Lebanon" id="471" weight="1.0" />
+      <edge source="Indonesia" target="Nepal" id="472" weight="1.0" />
+      <edge source="Indonesia" target="Pakistan" id="473" weight="1.0" />
+      <edge source="Indonesia" target="Syria" id="474" weight="1.0" />
+      <edge source="Indonesia" target="Uzbekistan" id="475" weight="1.0" />
+      <edge source="Indonesia" target="France" id="476" weight="1.0" />
+      <edge source="Indonesia" target="Russia" id="477" weight="1.0" />
+      <edge source="Indonesia" target="Mauritania" id="478" weight="1.0" />
+      <edge source="Ireland" target="Armenia" id="479" weight="1.0" />
+      <edge source="Ireland" target="Israel" id="480" weight="1.0" />
+      <edge source="Ireland" target="Japan" id="481" weight="1.0" />
+      <edge source="Ireland" target="Albania" id="482" weight="1.0" />
+      <edge source="Ireland" target="Austria" id="483" weight="1.0" />
+      <edge source="Ireland" target="Croatia" id="484" weight="1.0" />
+      <edge source="Ireland" target="Cyprus" id="485" weight="1.0" />
+      <edge source="Ireland" target="the Czech Republic" id="486" weight="1.0" />
+      <edge source="Ireland" target="Denmark" id="487" weight="1.0" />
+      <edge source="Ireland" target="Estonia" id="488" weight="1.0" />
+      <edge source="Ireland" target="Finland" id="489" weight="1.0" />
+      <edge source="Ireland" target="France" id="490" weight="1.0" />
+      <edge source="Ireland" target="Greece" id="491" weight="1.0" />
+      <edge source="Ireland" target="Iceland" id="492" weight="1.0" />
+      <edge source="Ireland" target="Latvia" id="493" weight="1.0" />
+      <edge source="Ireland" target="Malta" id="494" weight="1.0" />
+      <edge source="Ireland" target="Moldova" id="495" weight="1.0" />
+      <edge source="Ireland" target="the Netherlands" id="496" weight="1.0" />
+      <edge source="Ireland" target="North Macedonia" id="497" weight="1.0" />
+      <edge source="Ireland" target="Poland" id="498" weight="1.0" />
+      <edge source="Ireland" target="Romania" id="499" weight="1.0" />
+      <edge source="Ireland" target="Serbia" id="500" weight="1.0" />
+      <edge source="Ireland" target="Spain" id="501" weight="1.0" />
+      <edge source="Ireland" target="Sweden" id="502" weight="1.0" />
+      <edge source="Ireland" target="Switzerland" id="503" weight="1.0" />
+      <edge source="Kenya" target="Nigeria" id="504" weight="1.0" />
+      <edge source="Poland" target="Canada" id="505" weight="1.0" />
+      <edge source="Poland" target="Chile" id="506" weight="1.0" />
+      <edge source="Poland" target="Armenia" id="507" weight="1.0" />
+      <edge source="Poland" target="Azerbaijan" id="508" weight="1.0" />
+      <edge source="Poland" target="Israel" id="509" weight="1.0" />
+      <edge source="Poland" target="Japan" id="510" weight="1.0" />
+      <edge source="Poland" target="Albania" id="511" weight="1.0" />
+      <edge source="Poland" target="Austria" id="512" weight="1.0" />
+      <edge source="Poland" target="Croatia" id="513" weight="1.0" />
+      <edge source="Poland" target="Cyprus" id="514" weight="1.0" />
+      <edge source="Poland" target="the Czech Republic" id="515" weight="1.0" />
+      <edge source="Poland" target="Denmark" id="516" weight="1.0" />
+      <edge source="Poland" target="Estonia" id="517" weight="1.0" />
+      <edge source="Poland" target="Finland" id="518" weight="1.0" />
+      <edge source="Poland" target="France" id="519" weight="1.0" />
+      <edge source="Poland" target="Greece" id="520" weight="1.0" />
+      <edge source="Poland" target="Iceland" id="521" weight="1.0" />
+      <edge source="Poland" target="Latvia" id="522" weight="1.0" />
+      <edge source="Poland" target="Malta" id="523" weight="1.0" />
+      <edge source="Poland" target="Moldova" id="524" weight="1.0" />
+      <edge source="Poland" target="Montenegro" id="525" weight="1.0" />
+      <edge source="Poland" target="the Netherlands" id="526" weight="1.0" />
+      <edge source="Poland" target="North Macedonia" id="527" weight="1.0" />
+      <edge source="Poland" target="Romania" id="528" weight="1.0" />
+      <edge source="Poland" target="Russia" id="529" weight="1.0" />
+      <edge source="Poland" target="Spain" id="530" weight="1.0" />
+      <edge source="Poland" target="Sweden" id="531" weight="1.0" />
+      <edge source="Poland" target="Switzerland" id="532" weight="1.0" />
+      <edge source="Poland" target="Australia" id="533" weight="1.0" />
+      <edge source="Qatar" target="Cyprus" id="534" weight="1.0" />
+      <edge source="Nigeria" target="Ghana" id="535" weight="1.0" />
+      <edge source="Nigeria" target="Canada" id="536" weight="1.0" />
+      <edge source="Montenegro" target="Estonia" id="537" weight="1.0" />
+      <edge source="Montenegro" target="North Macedonia" id="538" weight="1.0" />
+      <edge source="Montenegro" target="Armenia" id="539" weight="1.0" />
+      <edge source="Montenegro" target="Croatia" id="540" weight="1.0" />
+      <edge source="Oman" target="Syria" id="541" weight="1.0" />
+      <edge source="Brunei" target="Australia" id="542" weight="1.0" />
+      <edge source="Austria" target="Azerbaijan" id="543" weight="1.0" />
+      <edge source="Austria" target="Israel" id="544" weight="1.0" />
+      <edge source="Austria" target="Cyprus" id="545" weight="1.0" />
+      <edge source="Austria" target="the Czech Republic" id="546" weight="1.0" />
+      <edge source="Austria" target="Denmark" id="547" weight="1.0" />
+      <edge source="Austria" target="Finland" id="548" weight="1.0" />
+      <edge source="Austria" target="France" id="549" weight="1.0" />
+      <edge source="Austria" target="Greece" id="550" weight="1.0" />
+      <edge source="Austria" target="Moldova" id="551" weight="1.0" />
+      <edge source="Austria" target="the Netherlands" id="552" weight="1.0" />
+      <edge source="Austria" target="Spain" id="553" weight="1.0" />
+      <edge source="Austria" target="Sweden" id="554" weight="1.0" />
+      <edge source="Austria" target="Switzerland" id="555" weight="1.0" />
+      <edge source="Austria" target="Malta" id="556" weight="1.0" />
+      <edge source="Austria" target="Estonia" id="557" weight="1.0" />
+      <edge source="Austria" target="North Macedonia" id="558" weight="1.0" />
+      <edge source="Austria" target="Latvia" id="559" weight="1.0" />
+      <edge source="Austria" target="Romania" id="560" weight="1.0" />
+      <edge source="Austria" target="Armenia" id="561" weight="1.0" />
+      <edge source="Austria" target="Croatia" id="562" weight="1.0" />
+      <edge source="Peru" target="Argentina" id="563" weight="1.0" />
+      <edge source="Peru" target="Canada" id="564" weight="1.0" />
+      <edge source="Peru" target="Guyana" id="565" weight="1.0" />
+      <edge source="Peru" target="Russia" id="566" weight="1.0" />
+      <edge source="Peru" target="Spain" id="567" weight="1.0" />
+      <edge source="Peru" target="Uruguay" id="568" weight="1.0" />
+      <edge source="Malta" target="Tunisia" id="569" weight="1.0" />
+      <edge source="Malta" target="Estonia" id="570" weight="1.0" />
+      <edge source="Malta" target="Finland" id="571" weight="1.0" />
+      <edge source="Malta" target="Greece" id="572" weight="1.0" />
+      <edge source="Malta" target="the Netherlands" id="573" weight="1.0" />
+      <edge source="Malta" target="Spain" id="574" weight="1.0" />
+      <edge source="Malta" target="Sweden" id="575" weight="1.0" />
+      <edge source="Malta" target="Denmark" id="576" weight="1.0" />
+      <edge source="Malta" target="Armenia" id="577" weight="1.0" />
+      <edge source="Malta" target="Croatia" id="578" weight="1.0" />
+      <edge source="Sri Lanka" target="Cyprus" id="579" weight="1.0" />
+      <edge source="Estonia" target="Armenia" id="580" weight="1.0" />
+      <edge source="Estonia" target="Azerbaijan" id="581" weight="1.0" />
+      <edge source="Estonia" target="Kyrgyzstan" id="582" weight="1.0" />
+      <edge source="Estonia" target="Tajikistan" id="583" weight="1.0" />
+      <edge source="Estonia" target="Croatia" id="584" weight="1.0" />
+      <edge source="Estonia" target="Cyprus" id="585" weight="1.0" />
+      <edge source="Estonia" target="the Czech Republic" id="586" weight="1.0" />
+      <edge source="Estonia" target="Denmark" id="587" weight="1.0" />
+      <edge source="Estonia" target="Finland" id="588" weight="1.0" />
+      <edge source="Estonia" target="Greece" id="589" weight="1.0" />
+      <edge source="Estonia" target="Iceland" id="590" weight="1.0" />
+      <edge source="Estonia" target="the Netherlands" id="591" weight="1.0" />
+      <edge source="Estonia" target="Romania" id="592" weight="1.0" />
+      <edge source="Estonia" target="Spain" id="593" weight="1.0" />
+      <edge source="Estonia" target="Sweden" id="594" weight="1.0" />
+      <edge source="Estonia" target="North Macedonia" id="595" weight="1.0" />
+      <edge source="Estonia" target="Moldova" id="596" weight="1.0" />
+      <edge source="Denmark" target="Albania" id="597" weight="1.0" />
+      <edge source="Denmark" target="Croatia" id="598" weight="1.0" />
+      <edge source="Denmark" target="Cyprus" id="599" weight="1.0" />
+      <edge source="Denmark" target="the Czech Republic" id="600" weight="1.0" />
+      <edge source="Denmark" target="Finland" id="601" weight="1.0" />
+      <edge source="Denmark" target="France" id="602" weight="1.0" />
+      <edge source="Denmark" target="Greece" id="603" weight="1.0" />
+      <edge source="Denmark" target="Iceland" id="604" weight="1.0" />
+      <edge source="Denmark" target="Latvia" id="605" weight="1.0" />
+      <edge source="Denmark" target="the Netherlands" id="606" weight="1.0" />
+      <edge source="Denmark" target="Romania" id="607" weight="1.0" />
+      <edge source="Denmark" target="Spain" id="608" weight="1.0" />
+      <edge source="Denmark" target="Sweden" id="609" weight="1.0" />
+      <edge source="Denmark" target="Tunisia" id="610" weight="1.0" />
+      <edge source="Denmark" target="Egypt" id="611" weight="1.0" />
+      <edge source="Belarus" target="Azerbaijan" id="612" weight="1.0" />
+      <edge source="Belarus" target="Kazakhstan" id="613" weight="1.0" />
+      <edge source="Belarus" target="Kyrgyzstan" id="614" weight="1.0" />
+      <edge source="Belarus" target="the Czech Republic" id="615" weight="1.0" />
+      <edge source="Belarus" target="Sweden" id="616" weight="1.0" />
+      <edge source="Belarus" target="Armenia" id="617" weight="1.0" />
+      <edge source="Belarus" target="Uzbekistan" id="618" weight="1.0" />
+      <edge source="North Macedonia" target="Albania" id="619" weight="1.0" />
+      <edge source="North Macedonia" target="Croatia" id="620" weight="1.0" />
+      <edge source="North Macedonia" target="France" id="621" weight="1.0" />
+      <edge source="North Macedonia" target="Greece" id="622" weight="1.0" />
+      <edge source="North Macedonia" target="Iceland" id="623" weight="1.0" />
+      <edge source="North Macedonia" target="the Netherlands" id="624" weight="1.0" />
+      <edge source="North Macedonia" target="Romania" id="625" weight="1.0" />
+      <edge source="North Macedonia" target="Spain" id="626" weight="1.0" />
+      <edge source="North Macedonia" target="the Czech Republic" id="627" weight="1.0" />
+      <edge source="Moldova" target="Azerbaijan" id="628" weight="1.0" />
+      <edge source="Moldova" target="France" id="629" weight="1.0" />
+      <edge source="Moldova" target="the Netherlands" id="630" weight="1.0" />
+      <edge source="Moldova" target="Sweden" id="631" weight="1.0" />
+      <edge source="Australia" target="Argentina" id="632" weight="1.0" />
+      <edge source="Australia" target="Canada" id="633" weight="1.0" />
+      <edge source="Australia" target="Chile" id="634" weight="1.0" />
+      <edge source="Australia" target="Singapore" id="635" weight="1.0" />
+      <edge source="Latvia" target="Canada" id="636" weight="1.0" />
+      <edge source="Latvia" target="Azerbaijan" id="637" weight="1.0" />
+      <edge source="Latvia" target="Israel" id="638" weight="1.0" />
+      <edge source="Latvia" target="Croatia" id="639" weight="1.0" />
+      <edge source="Latvia" target="Cyprus" id="640" weight="1.0" />
+      <edge source="Latvia" target="the Czech Republic" id="641" weight="1.0" />
+      <edge source="Latvia" target="Finland" id="642" weight="1.0" />
+      <edge source="Latvia" target="France" id="643" weight="1.0" />
+      <edge source="Latvia" target="Greece" id="644" weight="1.0" />
+      <edge source="Latvia" target="Iceland" id="645" weight="1.0" />
+      <edge source="Latvia" target="the Netherlands" id="646" weight="1.0" />
+      <edge source="Latvia" target="Romania" id="647" weight="1.0" />
+      <edge source="Latvia" target="Spain" id="648" weight="1.0" />
+      <edge source="Latvia" target="Sweden" id="649" weight="1.0" />
+      <edge source="Latvia" target="Armenia" id="650" weight="1.0" />
+      <edge source="Romania" target="Finland" id="651" weight="1.0" />
+      <edge source="Romania" target="France" id="652" weight="1.0" />
+      <edge source="Romania" target="Greece" id="653" weight="1.0" />
+      <edge source="Romania" target="the Netherlands" id="654" weight="1.0" />
+      <edge source="Romania" target="Spain" id="655" weight="1.0" />
+      <edge source="Romania" target="Sweden" id="656" weight="1.0" />
+      <edge source="Romania" target="Armenia" id="657" weight="1.0" />
+      <edge source="Romania" target="Azerbaijan" id="658" weight="1.0" />
+      <edge source="Romania" target="Croatia" id="659" weight="1.0" />
+      <edge source="Romania" target="Algeria" id="660" weight="1.0" />
+      <edge source="Romania" target="Tajikistan" id="661" weight="1.0" />
+      <edge source="Romania" target="the Czech Republic" id="662" weight="1.0" />
+      <edge source="Romania" target="Lebanon" id="663" weight="1.0" />
+      <edge source="Mongolia" target="Russia" id="664" weight="1.0" />
+      <edge source="Switzerland" target="Greece" id="665" weight="1.0" />
+      <edge source="Switzerland" target="the Netherlands" id="666" weight="1.0" />
+      <edge source="Switzerland" target="Sweden" id="667" weight="1.0" />
+      <edge source="Switzerland" target="the Czech Republic" id="668" weight="1.0" />
+      <edge source="Chile" target="Argentina" id="669" weight="1.0" />
+      <edge source="Chile" target="Spain" id="670" weight="1.0" />
+      <edge source="Bahrain" target="Syria" id="671" weight="1.0" />
+      <edge source="Guatemala" target="Belize" id="672" weight="1.0" />
+      <edge source="Albania" target="Egypt" id="673" weight="1.0" />
+      <edge source="Albania" target="Azerbaijan" id="674" weight="1.0" />
+      <edge source="Albania" target="Croatia" id="675" weight="1.0" />
+      <edge source="Albania" target="France" id="676" weight="1.0" />
+      <edge source="Albania" target="Iceland" id="677" weight="1.0" />
+      <edge source="Albania" target="Armenia" id="678" weight="1.0" />
+      <edge source="Albania" target="the Netherlands" id="679" weight="1.0" />
+      <edge source="Albania" target="Spain" id="680" weight="1.0" />
+      <edge source="Albania" target="Finland" id="681" weight="1.0" />
+      <edge source="Albania" target="Sweden" id="682" weight="1.0" />
+      <edge source="Guyana" target="Uruguay" id="683" weight="1.0" />
+      <edge source="Turkmenistan" target="Armenia" id="684" weight="1.0" />
+      <edge source="Zambia" target="Cyprus" id="685" weight="1.0" />
+      <edge source="Armenia" target="Kazakhstan" id="686" weight="1.0" />
+      <edge source="Armenia" target="Kyrgyzstan" id="687" weight="1.0" />
+      <edge source="Armenia" target="Tajikistan" id="688" weight="1.0" />
+      <edge source="Armenia" target="Croatia" id="689" weight="1.0" />
+      <edge source="Armenia" target="Cyprus" id="690" weight="1.0" />
+      <edge source="Armenia" target="the Czech Republic" id="691" weight="1.0" />
+      <edge source="Armenia" target="Greece" id="692" weight="1.0" />
+      <edge source="Armenia" target="the Netherlands" id="693" weight="1.0" />
+      <edge source="Armenia" target="Sweden" id="694" weight="1.0" />
+      <edge source="Pakistan" target="Egypt" id="695" weight="1.0" />
+      <edge source="Pakistan" target="Thailand" id="696" weight="1.0" />
+      <edge source="Tunisia" target="Croatia" id="697" weight="1.0" />
+      <edge source="Tunisia" target="Syria" id="698" weight="1.0" />
+      <edge source="Tunisia" target="Cyprus" id="699" weight="1.0" />
+      <edge source="Canada" target="Croatia" id="700" weight="1.0" />
+      <edge source="Canada" target="Greece" id="701" weight="1.0" />
+      <edge source="Canada" target="the Netherlands" id="702" weight="1.0" />
+      <edge source="Canada" target="Argentina" id="703" weight="1.0" />
+      <edge source="Canada" target="Uruguay" id="704" weight="1.0" />
+      <edge source="Canada" target="Belize" id="705" weight="1.0" />
+      <edge source="Canada" target="Eswatini" id="706" weight="1.0" />
+      <edge source="Canada" target="Sweden" id="707" weight="1.0" />
+      <edge source="Canada" target="Mauritius" id="708" weight="1.0" />
+      <edge source="Croatia" target="Azerbaijan" id="709" weight="1.0" />
+      <edge source="Croatia" target="Lebanon" id="710" weight="1.0" />
+      <edge source="Croatia" target="Cyprus" id="711" weight="1.0" />
+      <edge source="Croatia" target="the Czech Republic" id="712" weight="1.0" />
+      <edge source="Croatia" target="Finland" id="713" weight="1.0" />
+      <edge source="Croatia" target="France" id="714" weight="1.0" />
+      <edge source="Croatia" target="Greece" id="715" weight="1.0" />
+      <edge source="Croatia" target="Iceland" id="716" weight="1.0" />
+      <edge source="Croatia" target="the Netherlands" id="717" weight="1.0" />
+      <edge source="Croatia" target="Russia" id="718" weight="1.0" />
+      <edge source="Croatia" target="Spain" id="719" weight="1.0" />
+      <edge source="Croatia" target="Sweden" id="720" weight="1.0" />
+      <edge source="Jordan" target="Syria" id="721" weight="1.0" />
+      <edge source="Jordan" target="Cyprus" id="722" weight="1.0" />
+      <edge source="Greece" target="Egypt" id="723" weight="1.0" />
+      <edge source="Greece" target="Cambodia" id="724" weight="1.0" />
+      <edge source="Greece" target="Lebanon" id="725" weight="1.0" />
+      <edge source="Greece" target="Syria" id="726" weight="1.0" />
+      <edge source="Greece" target="Bosnia and Herzegovina" id="727" weight="1.0" />
+      <edge source="Greece" target="Cyprus" id="728" weight="1.0" />
+      <edge source="Greece" target="Finland" id="729" weight="1.0" />
+      <edge source="Greece" target="Iceland" id="730" weight="1.0" />
+      <edge source="Greece" target="the Netherlands" id="731" weight="1.0" />
+      <edge source="Greece" target="Russia" id="732" weight="1.0" />
+      <edge source="Greece" target="the Democratic Republic of the Congo" id="733" weight="1.0" />
+      <edge source="Greece" target="Spain" id="734" weight="1.0" />
+      <edge source="Greece" target="Algeria" id="735" weight="1.0" />
+      <edge source="Greece" target="Sweden" id="736" weight="1.0" />
+      <edge source="Greece" target="the Czech Republic" id="737" weight="1.0" />
+      <edge source="the Netherlands" target="Azerbaijan" id="738" weight="1.0" />
+      <edge source="the Netherlands" target="Cyprus" id="739" weight="1.0" />
+      <edge source="the Netherlands" target="the Czech Republic" id="740" weight="1.0" />
+      <edge source="the Netherlands" target="Finland" id="741" weight="1.0" />
+      <edge source="the Netherlands" target="France" id="742" weight="1.0" />
+      <edge source="the Netherlands" target="Iceland" id="743" weight="1.0" />
+      <edge source="the Netherlands" target="Spain" id="744" weight="1.0" />
+      <edge source="the Netherlands" target="Sweden" id="745" weight="1.0" />
+      <edge source="Saudi Arabia" target="Syria" id="746" weight="1.0" />
+      <edge source="Saudi Arabia" target="Cyprus" id="747" weight="1.0" />
+      <edge source="Azerbaijan" target="Finland" id="748" weight="1.0" />
+      <edge source="Azerbaijan" target="the Czech Republic" id="749" weight="1.0" />
+      <edge source="Argentina" target="Algeria" id="750" weight="1.0" />
+      <edge source="Argentina" target="Barbados" id="751" weight="1.0" />
+      <edge source="Uruguay" target="France" id="752" weight="1.0" />
+      <edge source="Uruguay" target="Spain" id="753" weight="1.0" />
+      <edge source="Uzbekistan" target="Tajikistan" id="754" weight="1.0" />
+      <edge source="Belize" target="Costa Rica" id="755" weight="1.0" />
+      <edge source="Burundi" target="Cyprus" id="756" weight="1.0" />
+      <edge source="Bosnia and Herzegovina" target="Cyprus" id="757" weight="1.0" />
+      <edge source="Bosnia and Herzegovina" target="the Czech Republic" id="758" weight="1.0" />
+      <edge source="the Philippines" target="Thailand" id="759" weight="1.0" />
+      <edge source="the United Arab Emirates" target="Syria" id="760" weight="1.0" />
+      <edge source="Egypt" target="Syria" id="761" weight="1.0" />
+      <edge source="Spain" target="Israel" id="762" weight="1.0" />
+      <edge source="Spain" target="Cyprus" id="763" weight="1.0" />
+      <edge source="Spain" target="the Czech Republic" id="764" weight="1.0" />
+      <edge source="Spain" target="Finland" id="765" weight="1.0" />
+      <edge source="Spain" target="France" id="766" weight="1.0" />
+      <edge source="Spain" target="Iceland" id="767" weight="1.0" />
+      <edge source="Spain" target="Sweden" id="768" weight="1.0" />
+      <edge source="Finland" target="Israel" id="769" weight="1.0" />
+      <edge source="Finland" target="Cyprus" id="770" weight="1.0" />
+      <edge source="Finland" target="the Czech Republic" id="771" weight="1.0" />
+      <edge source="Finland" target="France" id="772" weight="1.0" />
+      <edge source="Finland" target="Iceland" id="773" weight="1.0" />
+      <edge source="Finland" target="Sweden" id="774" weight="1.0" />
+      <edge source="Libya" target="Syria" id="775" weight="1.0" />
+      <edge source="Eswatini" target="Cyprus" id="776" weight="1.0" />
+      <edge source="Algeria" target="Syria" id="777" weight="1.0" />
+      <edge source="Algeria" target="Cyprus" id="778" weight="1.0" />
+      <edge source="Iceland" target="the Czech Republic" id="779" weight="1.0" />
+      <edge source="Iceland" target="France" id="780" weight="1.0" />
+      <edge source="Iceland" target="Sweden" id="781" weight="1.0" />
+      <edge source="Cambodia" target="Russia" id="782" weight="1.0" />
+      <edge source="Singapore" target="Russia" id="783" weight="1.0" />
+      <edge source="Singapore" target="Thailand" id="784" weight="1.0" />
+      <edge source="Mauritania" target="Syria" id="785" weight="1.0" />
+      <edge source="Sweden" target="the Czech Republic" id="786" weight="1.0" />
+      <edge source="Sweden" target="France" id="787" weight="1.0" />
+      <edge source="Syria" target="Cyprus" id="788" weight="1.0" />
+      <edge source="Cyprus" target="Lesotho" id="789" weight="1.0" />
+      <edge source="Cyprus" target="Israel" id="790" weight="1.0" />
+      <edge source="Cyprus" target="Kazakhstan" id="791" weight="1.0" />
+      <edge source="Cyprus" target="Lebanon" id="792" weight="1.0" />
+      <edge source="Cyprus" target="the Czech Republic" id="793" weight="1.0" />
+      <edge source="Cyprus" target="France" id="794" weight="1.0" />
+      <edge source="Cyprus" target="Mauritius" id="795" weight="1.0" />
+      <edge source="Mauritius" target="France" id="796" weight="1.0" />
+      <edge source="the Czech Republic" target="France" id="797" weight="1.0" />
     </edges>
   </graph>
 </gexf>
